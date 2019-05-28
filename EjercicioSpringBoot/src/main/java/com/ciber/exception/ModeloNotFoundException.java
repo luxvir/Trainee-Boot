@@ -1,0 +1,17 @@
+package com.ciber.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(HttpStatus.NOT_FOUND)
+public class ModeloNotFoundException extends RuntimeException {
+
+  /** HttpStatus NOT_FOUND.
+   * 
+   */
+  private static final long serialVersionUID = 1L;
+
+  public ModeloNotFoundException(String mensaje) {
+    super(mensaje);
+  }
+}

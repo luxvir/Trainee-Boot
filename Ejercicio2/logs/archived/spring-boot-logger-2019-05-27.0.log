@@ -1,0 +1,89 @@
+2019-05-27 13:24:34,234 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 6720 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 13:24:34,240 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 13:24:34,242 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 13:25:53,423 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 7544 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 13:25:53,441 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 13:25:53,442 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 13:26:52,142 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 13608 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 13:26:52,147 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 13:26:52,148 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 13:36:31,559 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 18128 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 13:36:31,699 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 13:36:31,701 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 13:42:24,221 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 12464 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 13:42:24,410 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 13:42:24,412 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 13:43:35,852 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 14356 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 13:43:36,063 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 13:43:36,066 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 13:45:12,197 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 244 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 13:45:12,294 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 13:45:12,295 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 14:07:57,570 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 14:12:32,601 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 14:13:13,236 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 14:16:58,430 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 14:30:29,220 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 14:35:00,841 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 14:38:53,542 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 14:43:36,398 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 16688 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 14:43:36,477 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 14:43:36,478 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 14:46:58,756 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 6808 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 14:46:59,292 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 14:46:59,293 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 14:48:54,845 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 140.825 seconds (JVM running for 149.286)
+2019-05-27 16:12:47,195 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 8992 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 16:12:47,254 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 16:12:47,255 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 16:17:03,640 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 11892 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 16:17:03,765 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 16:17:03,770 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 16:18:10,390 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 13940 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 16:18:10,395 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 16:18:10,397 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 16:18:45,717 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 11068 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 16:18:45,728 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 16:18:45,729 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 16:27:08,949 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 15536 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 16:27:08,955 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 16:27:08,956 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 16:28:24,958 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 10288 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 16:28:24,962 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 16:28:24,963 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 16:28:34,044 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 9.662 seconds (JVM running for 10.858)
+2019-05-27 16:49:16,585 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 16:53:31,896 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 293.107 seconds (JVM running for 378.835)
+2019-05-27 16:57:25,977 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 16:57:54,931 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 33.264 seconds (JVM running for 38.725)
+2019-05-27 18:43:36,774 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 18:44:09,537 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 38.722 seconds (JVM running for 44.258)
+2019-05-27 18:46:20,244 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 18:46:34,543 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 16.776 seconds (JVM running for 18.248)
+2019-05-27 18:48:09,181 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 10104 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 18:48:09,186 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 18:48:09,187 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 18:48:15,772 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 7.335 seconds (JVM running for 8.628)
+2019-05-27 18:52:06,294 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 15824 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 18:52:06,338 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 18:52:06,340 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 18:52:20,768 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 16.442 seconds (JVM running for 25.544)
+2019-05-27 19:00:32,623 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 2656 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 19:00:32,643 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 19:00:32,645 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 19:00:50,260 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 19.309 seconds (JVM running for 25.425)
+2019-05-27 19:04:24,882 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 9740 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 19:04:25,094 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 19:04:25,095 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 19:05:30,462 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 76.155 seconds (JVM running for 84.513)
+2019-05-27 19:12:36,646 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 4872 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 19:12:36,657 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 19:12:36,658 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 19:12:48,647 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 13.312 seconds (JVM running for 17.335)
+2019-05-27 19:17:27,518 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 18216 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 19:17:27,524 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 19:17:27,525 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 19:18:38,846 INFO org.springframework.boot.StartupInfoLogger [main] Starting Ejercicio2Application on LIM-5CD5447V1Z with PID 18076 (started by vperezqu in C:\Users\vperezqu\Documents\Ejercicio 2\Trainee-Bootcamp\Ejercicio2)
+2019-05-27 19:18:38,852 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-27 19:18:38,853 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-27 19:18:46,119 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 8.346 seconds (JVM running for 10.462)

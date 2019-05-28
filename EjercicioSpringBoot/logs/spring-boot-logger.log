@@ -1,0 +1,192 @@
+2019-05-20 10:53:45,450 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 3028 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 10:53:45,465 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 10:53:45,466 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 10:54:01,805 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 17.96 seconds (JVM running for 20.246)
+2019-05-20 10:54:10,125 INFO com.ciber.service.ParentsServiceImpl [https-jsse-nio-9090-exec-4] Lista parientes.
+2019-05-20 10:54:27,499 INFO com.ciber.service.ParentsServiceImpl [https-jsse-nio-9090-exec-9] Lista parientes.
+2019-05-20 11:00:47,296 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 9724 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 11:00:47,300 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:00:47,301 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 11:00:54,332 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 7.611 seconds (JVM running for 8.757)
+2019-05-20 11:01:48,994 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-4] Lista familias.
+2019-05-20 11:02:26,294 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6] errororg.springframework.dao.EmptyResultDataAccessException: No class com.ciber.model.Families entity with id 99 exists!
+2019-05-20 11:02:26,295 INFO com.ciber.controller.FamiliesController [https-jsse-nio-9090-exec-6] Termino proceso
+2019-05-20 11:15:08,731 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 5124 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 11:15:08,738 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:15:08,745 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 11:15:17,230 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 9.129 seconds (JVM running for 10.233)
+2019-05-20 11:16:46,895 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 13452 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 11:16:46,900 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:16:46,903 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 11:16:53,824 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 7.479 seconds (JVM running for 8.559)
+2019-05-20 11:17:07,354 INFO com.ciber.controller.FamiliesController [https-jsse-nio-9090-exec-5] error
+2019-05-20 11:28:08,855 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 8780 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 11:28:08,860 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:28:08,861 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 11:28:15,922 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 7.635 seconds (JVM running for 8.695)
+2019-05-20 11:28:29,287 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-6] Lista de estudiantes.
+2019-05-20 11:29:16,992 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-1] Lista de estudiantes.
+2019-05-20 11:29:59,115 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-6] Lista de estudiantes.
+2019-05-20 11:31:29,267 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 14372 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 11:31:29,272 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:31:29,273 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 11:31:36,272 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 7.551 seconds (JVM running for 8.713)
+2019-05-20 11:32:16,240 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-8] Lista familias.
+2019-05-20 11:32:51,596 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-2] Lista familias.
+2019-05-20 11:33:07,493 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-4] Lista familias.
+2019-05-20 11:33:25,585 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7] Lista familias.
+2019-05-20 11:36:08,917 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 18012 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 11:36:08,922 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:36:08,923 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 11:36:15,876 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 7.52 seconds (JVM running for 8.589)
+2019-05-20 11:36:45,995 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6] Lista familias.
+2019-05-20 11:37:04,675 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7] Lista familias.
+2019-05-20 11:37:53,958 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 9044 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 11:37:53,963 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:37:53,964 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 11:38:01,159 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 7.757 seconds (JVM running for 8.819)
+2019-05-20 11:38:59,036 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7] Lista familias.
+2019-05-20 11:40:54,931 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-8] Lista de estudiantes.
+2019-05-20 11:47:11,948 INFO com.ciber.service.ParentsServiceImpl [https-jsse-nio-9090-exec-2] Lista parientes.
+2019-05-20 11:47:48,210 INFO com.ciber.service.ParentsServiceImpl [https-jsse-nio-9090-exec-8] Lista parientes.
+2019-05-20 11:48:16,612 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 11704 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 11:48:16,617 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:48:16,618 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 11:48:23,841 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 7.753 seconds (JVM running for 8.847)
+2019-05-20 11:48:41,004 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5] Lista familias.
+2019-05-20 11:48:58,100 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6] entro
+2019-05-20 11:48:58,101 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6] errorjava.lang.NullPointerException
+2019-05-20 11:48:58,102 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6] termino proceso
+2019-05-20 11:49:13,982 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7] errororg.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-05-20 11:49:13,982 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7] no Eleminado familia
+2019-05-20 11:49:20,029 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-9] Lista familias.
+2019-05-20 11:49:50,417 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-10] errororg.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-05-20 11:49:50,418 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-10] no Eleminado familia
+2019-05-20 11:50:16,328 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-8] errororg.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-05-20 11:50:16,329 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-8] no Eleminado familia
+2019-05-20 11:50:17,423 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-2] errororg.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-05-20 11:50:17,424 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-2] no Eleminado familia
+2019-05-20 11:52:00,594 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7] Eleminado familia
+2019-05-20 11:52:18,841 INFO com.ciber.service.ParentsServiceImpl [https-jsse-nio-9090-exec-5] Lista parientes.
+2019-05-20 11:52:27,921 INFO com.ciber.service.ParentsServiceImpl [https-jsse-nio-9090-exec-6] Lista parientes.
+2019-05-20 15:04:39,944 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 14704 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 15:04:40,149 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 15:04:40,150 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 15:05:44,020 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 70.831 seconds (JVM running for 83.3)
+2019-05-20 15:06:50,583 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7] Lista familias.
+2019-05-20 15:12:39,856 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 6248 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 15:12:39,879 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 15:12:39,880 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 15:12:57,113 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 19.291 seconds (JVM running for 23.826)
+2019-05-20 15:15:55,560 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 7588 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 15:15:55,565 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 15:15:55,566 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 15:16:03,226 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 8.291 seconds (JVM running for 9.554)
+2019-05-20 15:16:31,224 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7] Lista familias.
+2019-05-20 15:20:07,829 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 14304 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 15:20:07,834 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 15:20:07,835 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 15:20:15,321 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 8.055 seconds (JVM running for 9.286)
+2019-05-20 15:20:26,309 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5]  id 4
+2019-05-20 15:33:09,916 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 17672 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 15:33:09,953 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 15:33:09,955 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 15:33:38,704 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 39.911 seconds (JVM running for 75.549)
+2019-05-20 15:34:01,605 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5]  id 4
+2019-05-20 15:34:01,892 INFO com.ciber.controller.FamiliesController [https-jsse-nio-9090-exec-5] Ingreso
+2019-05-20 15:37:50,616 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 9796 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 15:37:50,621 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 15:37:50,622 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 15:37:58,298 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 8.221 seconds (JVM running for 9.559)
+2019-05-20 15:38:20,808 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5]  id 4
+2019-05-20 15:38:20,884 INFO com.ciber.controller.FamiliesController [https-jsse-nio-9090-exec-5] Ingreso
+2019-05-20 15:38:28,041 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6]  id 49999
+2019-05-20 15:38:38,191 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7]  id 4
+2019-05-20 15:38:38,197 INFO com.ciber.controller.FamiliesController [https-jsse-nio-9090-exec-7] Ingreso
+2019-05-20 15:39:24,467 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 11752 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 15:39:24,471 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 15:39:24,473 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 15:39:31,371 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 7.424 seconds (JVM running for 8.577)
+2019-05-20 15:39:38,624 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-4]  id 4
+2019-05-20 15:39:38,696 INFO com.ciber.controller.FamiliesController [https-jsse-nio-9090-exec-4] Ingreso
+2019-05-20 15:44:23,908 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 15368 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 15:44:23,913 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 15:44:23,914 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 15:44:30,845 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 7.475 seconds (JVM running for 8.565)
+2019-05-20 15:44:37,082 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5]  id 4
+2019-05-20 15:44:37,153 INFO com.ciber.controller.FamiliesController [https-jsse-nio-9090-exec-5] Ingreso
+2019-05-20 15:44:37,153 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5]  id 4
+2019-05-20 15:44:41,645 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6]  id 4
+2019-05-20 15:44:41,653 INFO com.ciber.controller.FamiliesController [https-jsse-nio-9090-exec-6] Ingreso
+2019-05-20 15:44:41,654 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6]  id 4
+2019-05-20 15:48:04,821 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 12684 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 15:48:04,826 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 15:48:04,827 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 15:48:11,702 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 7.399 seconds (JVM running for 8.508)
+2019-05-20 15:48:20,274 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5]  id 4
+2019-05-20 15:48:20,359 INFO com.ciber.controller.FamiliesController [https-jsse-nio-9090-exec-5] Ingreso
+2019-05-20 15:48:28,950 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6]  id 9999
+2019-05-20 16:07:02,594 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 16920 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 16:07:02,607 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 16:07:02,608 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 16:07:17,833 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 17.035 seconds (JVM running for 22.77)
+2019-05-20 16:08:03,929 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 10980 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 16:08:03,935 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 16:08:03,937 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 16:08:13,126 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 9.906 seconds (JVM running for 11.167)
+2019-05-20 16:08:36,824 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-3] Lista de estudiantes.
+2019-05-20 16:09:27,027 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6] Lista familias.
+2019-05-20 16:10:32,574 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5] Lista familias.
+2019-05-20 16:10:46,751 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-4]  id 1
+2019-05-20 16:10:53,852 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-3] Lista familias.
+2019-05-20 16:11:17,286 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6]  id 88888
+2019-05-20 16:11:40,578 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7]  id 88888
+2019-05-20 16:12:08,529 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-8]  id 88888
+2019-05-20 16:18:42,964 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 12160 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 16:18:42,971 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 16:18:42,972 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 16:18:52,152 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 10.066 seconds (JVM running for 11.489)
+2019-05-20 16:19:20,625 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5] Lista familias.
+2019-05-20 16:19:45,989 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6]  id 9999
+2019-05-20 16:20:14,374 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7]  id 2
+2019-05-20 16:20:14,939 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7] errororg.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-05-20 16:20:14,940 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7] no Eleminado familia
+2019-05-20 16:24:22,331 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 16484 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 16:24:22,337 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 16:24:22,339 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 16:24:31,848 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 10.32 seconds (JVM running for 11.785)
+2019-05-20 16:25:07,457 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5] errororg.springframework.dao.EmptyResultDataAccessException: No class com.ciber.model.Families entity with id 288888 exists!
+2019-05-20 16:25:07,458 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5] no Eleminado familia
+2019-05-20 16:25:16,828 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6] errororg.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-05-20 16:25:16,829 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6] no Eleminado familia
+2019-05-20 16:25:21,533 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7] errororg.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-05-20 16:25:21,534 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-7] no Eleminado familia
+2019-05-20 16:25:31,826 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-8] Lista familias.
+2019-05-20 16:25:49,340 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-9] errororg.springframework.dao.EmptyResultDataAccessException: No class com.ciber.model.Families entity with id 69999 exists!
+2019-05-20 16:25:49,341 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-9] no Eleminado familia
+2019-05-20 16:25:55,134 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-10] Eleminado familia
+2019-05-20 16:26:11,183 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-2] Lista familias.
+2019-05-20 16:27:03,458 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 18332 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 16:27:03,467 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 16:27:03,469 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 16:27:13,362 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 10.704 seconds (JVM running for 12.245)
+2019-05-20 16:27:53,191 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 16432 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 16:27:53,198 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 16:27:53,200 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 16:28:01,332 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 8.879 seconds (JVM running for 10.141)
+2019-05-20 16:28:27,491 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5]  id 39999
+2019-05-20 16:28:57,248 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-1]  id 3
+2019-05-20 16:28:57,284 INFO com.ciber.controller.FamiliesController [https-jsse-nio-9090-exec-1] id 3
+2019-05-20 16:28:57,368 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-1] errororg.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-05-20 16:28:57,369 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-1] no Eleminado familia
+2019-05-20 16:29:06,187 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-4] Lista familias.
+2019-05-20 16:29:15,511 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-3] Lista familias.
+2019-05-20 16:29:20,863 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5]  id 4
+2019-05-20 16:29:20,868 INFO com.ciber.controller.FamiliesController [https-jsse-nio-9090-exec-5] id 4
+2019-05-20 16:29:20,878 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-5] Eleminado familia
+2019-05-20 16:31:30,302 INFO org.springframework.boot.StartupInfoLogger [main] Starting EjercicioSpringBootApplication on LIM-5CD5447V1Z with PID 18132 (C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot\target\classes started by vperezqu in C:\Users\vperezqu\Documents\Bootcamp\Trainee-Bootcamp\EjercicioSpringBoot)
+2019-05-20 16:31:30,307 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 16:31:30,308 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 16:31:39,550 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 10.134 seconds (JVM running for 11.807)
+2019-05-20 16:31:59,351 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-6]  id 488888
+2019-05-20 16:46:26,928 INFO com.ciber.service.FamiliesServiceImpl [https-jsse-nio-9090-exec-1] Lista familias.
