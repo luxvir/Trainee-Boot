@@ -89,4 +89,14 @@ public class StudentsController {
   public ResponseEntity<Students> listById(@PathVariable("id") int id) {
     return new ResponseEntity<Students>(service.findById(id).get(), HttpStatus.OK);
   }
+  
+  @ApiOperation(value = "Retorna una lista de students dado una lista de Id")
+  @PostMapping("/api/v1/students/ids")
+  public ResponseEntity<List<Students>> listAllById(@RequestBody List<Integer> listStuId){
+	   return new ResponseEntity<List<Students>>(service.listAllStudentById(listStuId), HttpStatus.OK);
+  }
+  
+  
+  
+  
 }

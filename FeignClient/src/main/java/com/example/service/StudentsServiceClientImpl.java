@@ -14,5 +14,10 @@ public class StudentsServiceClientImpl implements StudentsServiceClient{
 
     return dao.getStudents();
   }
+@Override
+public List<Object> listAllStudentById(List<Integer> listStudnt) {
+	// TODO Auto-generated method stub
+	return null;
+}
 
 }

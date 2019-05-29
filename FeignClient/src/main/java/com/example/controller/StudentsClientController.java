@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,6 +22,9 @@ public class StudentsClientController {
   @Autowired
   StudentsServiceClient service;
   
+  public StudentsClientController(StudentsServiceClient service) {
+		this.service = service;
+  }
   
   @HystrixCommand(fallbackMethod = "fallback_list", commandProperties = {@HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1000")
       })
@@ -33,5 +39,11 @@ public class StudentsClientController {
     e.add("Error");
     return e;
   }
-
+  
+  @GetMapping("/version/listIds/")
+  public ResponseEntity< List<Object>> listAllStudentById(@RequestBody List<Integer> listStudnt) throws InterruptedException {
+	  return new ResponseEntity<List<Object>>(service.listAllStudentById(listStudnt), HttpStatus.OK);
+  }
+  
+  
 }

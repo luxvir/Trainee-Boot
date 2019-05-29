@@ -2,20 +2,16 @@ package com.ciber.dao;
 
 import com.ciber.model.StudentClasses;
 
-import java.util.Date;
+
 import java.util.List;
 
-import javax.transaction.Transactional;
-
-import org.springframework.data.jpa.repository.Modifying;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
 
 
 public interface IStudentClassesDao extends  CrudRepository<StudentClasses, Integer> {
   List<StudentClasses> findByClassesClassesId(int classId);
-  
+  /*
   @Override
 	@Query("select e from StudentClasses e where e.deleteStatus=0")
 	@Transactional
@@ -29,4 +25,6 @@ public interface IStudentClassesDao extends  CrudRepository<StudentClasses, Inte
 	@Transactional
 	@Modifying
 	public void softDelete(Date dateFrom, int studentId, int classesId );
+	
+	*/
 }

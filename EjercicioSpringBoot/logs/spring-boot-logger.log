@@ -4,3 +4,43 @@
 2019-05-29 00:55:30,837 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 32.547 seconds (JVM running for 36.301)
 2019-05-29 02:39:35,694 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
 2019-05-29 02:40:12,735 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 44.271 seconds (JVM running for 52.598)
+2019-05-29 10:54:17,068 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 10:54:32,745 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 18.024 seconds (JVM running for 19.794)
+2019-05-29 10:58:11,354 INFO com.ciber.service.FamilyMembersServiceImpl [https-jsse-nio-9090-exec-6] Lista miembros de familias.
+2019-05-29 11:34:30,573 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 11:35:29,546 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 11:35:50,352 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 23.909 seconds (JVM running for 25.632)
+2019-05-29 13:36:42,701 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 13:37:05,610 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 25.393 seconds (JVM running for 26.768)
+2019-05-29 13:49:41,289 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 13:49:54,278 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 15.254 seconds (JVM running for 16.544)
+2019-05-29 13:58:06,154 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-7] Lista de estudiantes.
+2019-05-29 14:10:15,762 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 14:10:46,067 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 32.982 seconds (JVM running for 34.691)
+2019-05-29 14:39:54,008 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-4] Lista de estudiantes.
+2019-05-29 14:40:13,192 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-2] Lista de estudiantes.
+2019-05-29 14:56:32,136 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-1] Lista de estudiantes.
+2019-05-29 14:57:14,297 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 14:57:26,416 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 14.412 seconds (JVM running for 15.823)
+2019-05-29 15:08:34,685 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-6] Lista de estudiantes.
+2019-05-29 15:49:10,760 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 15:49:22,704 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 14.217 seconds (JVM running for 15.526)
+2019-05-29 16:07:39,254 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-3] Lista de estudiantes.
+2019-05-29 16:11:25,689 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-6] Lista de estudiantes.
+2019-05-29 16:38:32,617 INFO com.ciber.service.StudentsServiceImpl [https-jsse-nio-9090-exec-3] Lista de estudiantes.
+2019-05-29 17:06:50,195 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 17:07:03,016 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 15.113 seconds (JVM running for 16.423)
+2019-05-29 17:22:55,914 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 17:23:08,002 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 14.336 seconds (JVM running for 15.86)
+2019-05-29 17:24:42,005 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 17:24:53,942 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 14.299 seconds (JVM running for 15.582)
+2019-05-29 17:26:52,576 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 17:27:04,439 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 14.105 seconds (JVM running for 15.385)
+2019-05-29 17:27:47,125 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-6] Lista de estudiantes.
+2019-05-29 17:33:30,733 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
+2019-05-29 18:18:05,623 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
+2019-05-29 18:19:49,571 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-05-29 18:22:27,870 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-05-29 18:25:56,304 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-05-29 18:27:15,162 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 18:27:27,416 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 14.694 seconds (JVM running for 16.198)

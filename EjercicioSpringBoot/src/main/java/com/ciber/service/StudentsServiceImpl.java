@@ -93,4 +93,10 @@ public class StudentsServiceImpl implements IStudentsService {
   public Optional<Students> findById(int id) {
     return (Optional<Students>) dao.findById(id);
   }
+
+	@Override
+	public List<Students> listAllStudentById(List<Integer> listStudnt) {
+		
+		return dao.listAllStudentById(listStudnt);
+	}
 }

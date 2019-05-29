@@ -15,4 +15,6 @@ public interface IStudentsService {
   int delete(Integer id);
   
   Optional<Students> findById(int id);
+  
+  List<Students> listAllStudentById(List<Integer> listStudnt);
 }
