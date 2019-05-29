@@ -15,4 +15,8 @@ public interface ISubjectsService {
   int delete(Integer id);
   
   Optional<Subjects> findByID(int id);
+  
+  void softdelete(int id);
+  
+  Subjects patchUpd(Subjects subj);
 }

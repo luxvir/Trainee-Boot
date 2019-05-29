@@ -19,5 +19,6 @@ public interface IClassesService {
   Optional<Classes> findByID(int id);
   
   List<StudentClasses> findByClass(int classId);
-
+  
+  void softdelete(int id);
 }

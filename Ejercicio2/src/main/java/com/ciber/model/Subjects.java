@@ -43,5 +43,9 @@ public class Subjects {
   @JsonIgnore
   @OneToMany(mappedBy = "subjects")
   private List<Classes> classes;
+  
+  @JsonIgnore
+  @Column(name = "delete_status")
+  private int deleteStatus = 0;
 
 }

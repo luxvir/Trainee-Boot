@@ -6,7 +6,9 @@ import com.ciber.server.ISubjectsService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
+import java.lang.reflect.Field;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import org.slf4j.Logger;
@@ -16,6 +18,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -97,4 +100,21 @@ public class SubjectsController {
       throw new ModeloNotFoundException(mensaje);
     }
   }
+  
+	
+	  @ApiOperation(value = "Eliminar Subject")
+	  @DeleteMapping(value = "/api/v1/subjects/{id}") 
+	  public void delete(@PathVariable("id") int id) {	  
+		  Optional<Subjects> s = service.findByID(id); 
+		  String mensaje = ""; 
+		  if (s.isPresent()) { 
+			  log.warn("Un Subject Fue Eliminado");
+			  service.softdelete(id); 
+		  } else { mensaje = "error en el ID " +id; throw new
+		  ModeloNotFoundException(mensaje); }
+		  
+	  }
+	 
+  
+
 }

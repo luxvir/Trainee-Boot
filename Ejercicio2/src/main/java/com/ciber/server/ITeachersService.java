@@ -15,4 +15,6 @@ public interface ITeachersService {
   int delete(Integer id);
   
   Optional<Teachers> findByID(int id);
+  
+  void softdelete(int id);
 }

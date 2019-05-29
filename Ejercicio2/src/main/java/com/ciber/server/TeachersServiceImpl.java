@@ -57,4 +57,10 @@ public class TeachersServiceImpl implements ITeachersService {
     return dao.findById(id);
   }
 
+	@Override
+	public void softdelete(int id) {
+		dao.softDelete(id);
+		
+	}
+
 }

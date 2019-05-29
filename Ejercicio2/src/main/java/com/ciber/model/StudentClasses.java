@@ -1,6 +1,8 @@
 package com.ciber.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -36,10 +38,12 @@ public class StudentClasses {
   @Id
   private Classes classes;
   
-  
-
   @Temporal(TemporalType.DATE)
   @Column(name = "date_to")
   @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy", timezone = "America/Bogota")
   private Date dateTo;
+  
+  @JsonIgnore
+  @Column(name = "delete_status")
+  private int deleteStatus = 0;
 }

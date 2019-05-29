@@ -82,4 +82,10 @@ public class ClassesServiceImpl implements IClassesService {
     return daoStuCLass.findByClassesClassesId(classId);
   }
 
+	@Override
+	public void softdelete(int id) {
+		dao.softDelete(id);
+		
+	}
+
 }

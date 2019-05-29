@@ -124,5 +124,19 @@ public class TeachersController {
       throw new ModeloNotFoundException(mensaje);
     }
   }
+  
+  @ApiOperation(value = "Eliminar Teachers")
+  @DeleteMapping(value = "/{id}")
+  public void delete(@PathVariable("id") int id) {
+	  Optional<Teachers> s = service.findByID(id);
+		String mensaje = "";
+	    if (s.isPresent()) {
+	    	log.warn("Un Teachers fue Eliminado");
+	    	service.softdelete(id);
+	    } else {
+	    	mensaje = "error en el ID " +id;
+	    	throw new ModeloNotFoundException(mensaje);
+	    }
+  }
 
 }

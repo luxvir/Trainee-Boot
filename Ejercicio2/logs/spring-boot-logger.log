@@ -1,6 +1,16 @@
-2019-05-28 14:05:50,737 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-28 14:06:13,213 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 26.437 seconds (JVM running for 32.221)
-2019-05-28 15:36:43,611 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-28 15:37:47,100 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 70.162 seconds (JVM running for 76.534)
-2019-05-28 15:41:40,703 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-28 15:42:18,592 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 42.362 seconds (JVM running for 52.568)
+2019-05-29 00:56:27,721 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 00:57:01,977 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 42.393 seconds (JVM running for 55.666)
+2019-05-29 02:39:35,694 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 02:40:58,861 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 02:41:47,404 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 02:43:15,807 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 02:44:24,888 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 02:45:26,063 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 02:48:14,224 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 02:48:29,660 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 18.653 seconds (JVM running for 20.644)
+2019-05-29 02:57:34,686 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 02:58:05,882 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 38.951 seconds (JVM running for 42.248)
+2019-05-29 02:59:04,216 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 02:59:19,700 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 18.449 seconds (JVM running for 25.391)
+2019-05-29 03:02:51,673 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-29 03:03:06,600 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 18.392 seconds (JVM running for 20.341)

@@ -56,4 +56,15 @@ public class SubjectsServiceImpl implements ISubjectsService {
     return dao.findById(id);
   }
 
+   @Override
+	public void softdelete(int id) {
+		dao.softDelete(id);
+	}
+
+@Override
+public Subjects patchUpd(Subjects subj) {
+	
+	return dao.save(subj);
+}
+
 }
