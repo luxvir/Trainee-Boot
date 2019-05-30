@@ -1,5 +1,6 @@
 package com.ciber.controllerClient;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,11 +25,12 @@ public class StudentsClientController {
 	this.service = service;
   }
 
+
   @GetMapping("api/version")
   public List<Students> getStudnts() throws InterruptedException { 
+	  Thread.sleep(2000);
     return service.getStudents();
   }
-  
   
   @PostMapping("api/version/listIds/")
   public ResponseEntity< List<Students>> listAllStudentById(@RequestBody List<Integer> listStudnt) throws InterruptedException {

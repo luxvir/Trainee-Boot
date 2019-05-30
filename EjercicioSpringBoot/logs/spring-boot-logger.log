@@ -44,3 +44,4 @@
 2019-05-29 18:25:56,304 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
 2019-05-29 18:27:15,162 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
 2019-05-29 18:27:27,416 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 14.694 seconds (JVM running for 16.198)
+2019-05-29 18:48:39,376 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
