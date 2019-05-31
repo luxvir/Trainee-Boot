@@ -8,6 +8,11 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableZuulProxy
+/**
+ * la clase ZuulGatewayApplication es el Gateway o proxy.
+ * @author vperezqu
+ *
+ */
 public class ZuulGatewayApplication {
 
 	public static void main(String[] args) {

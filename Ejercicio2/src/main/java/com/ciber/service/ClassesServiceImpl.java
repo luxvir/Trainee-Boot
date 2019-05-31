@@ -1,4 +1,4 @@
-package com.ciber.server;
+package com.ciber.service;
 
 import com.ciber.dao.IClassesDao;
 import com.ciber.dao.IStudentClassesDao;
@@ -23,16 +23,25 @@ public class ClassesServiceImpl implements IClassesService {
   Logger log = LoggerFactory.getLogger(this.getClass());
   @Autowired
   private IClassesDao dao;
+  @Autowired
   private IStudentClassesDao daoStuCLass;
+  @Autowired
   private ISubjectsDao daoSubj;
+  @Autowired
   private ITeachersDao daoTeach;
 
+  /**
+   * Funcion que retorna Lista de Clases.
+   */
   @Override
   public List<Classes> findAll() {
 
     return (List<Classes>) dao.findAll();
   }
 
+  /**
+   * Funcion que registra a un Clase.
+   */
   @Override
   public Classes create(Classes cla) {
     Classes clas = new Classes();
@@ -49,12 +58,18 @@ public class ClassesServiceImpl implements IClassesService {
     return clas;
   }
 
+  /**
+   * Funcion que se encarga de actualizar un Clase.
+   */
   @Override
   public Classes update(Classes cla) {
-
+    log.info("ingreso al servicio");
     return dao.save(cla);
   }
 
+  /**
+   * Funcion que se encarga de eleminar una Clase.
+   */
   @Override
   public int delete(Integer id) {
     int rpta = 0;
@@ -70,22 +85,33 @@ public class ClassesServiceImpl implements IClassesService {
     return rpta;
   }
 
+  /**
+   * Funcion que se encarga de buscar por ID de Clase.
+   */
+
   @Override
   public Optional<Classes> findByID(int id) {
 
     return dao.findById(id);
   }
 
+  /**
+   * Funcion que se encarga de actualizar el estado de un Clase.
+   */
   @Override
-  public List<StudentClasses> findByClass(int classId) {
-    
-    return daoStuCLass.findByClassesClassesId(classId);
-  }
+  public void softdelete(int id) {
+    dao.softDelete(id);
 
-	@Override
-	public void softdelete(int id) {
-		dao.softDelete(id);
-		
-	}
+  }
+  
+  /******************************************/
+/**
+ * 
+ */
+  @Override
+  public Classes getOne(int clasId) {
+    Classes classe = dao.findById(clasId).get();
+    return classe;
+  }
 
 }

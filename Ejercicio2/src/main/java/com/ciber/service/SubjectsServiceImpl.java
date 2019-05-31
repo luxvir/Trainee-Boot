@@ -1,4 +1,4 @@
-package com.ciber.server;
+package com.ciber.service;
 
 import com.ciber.dao.ISubjectsDao;
 import com.ciber.model.Subjects;
@@ -17,24 +17,36 @@ public class SubjectsServiceImpl implements ISubjectsService {
   @Autowired
   private ISubjectsDao dao;
 
+  /**
+   * uncion que lista a todos los Subjects.
+   */
   @Override
   public List<Subjects> findAll() {
 
     return (List<Subjects>) dao.findAll();
   }
 
+  /**
+   * Funcion que se encarga de registar a un Subjects.
+   */
   @Override
   public Subjects create(Subjects subj) {
 
     return dao.save(subj);
   }
 
+  /**
+   * Funcion que se encarga de actualizar a un objeto Subjects.
+   */
   @Override
   public Subjects update(Subjects subj) {
     // TODO Auto-generated method stub
     return dao.save(subj);
   }
 
+  /**
+   * Funcion que se encarga de eliminar a un objeto Subjects.
+   */
   @Override
   public int delete(Integer id) {
     int rpta = 0;
@@ -50,21 +62,36 @@ public class SubjectsServiceImpl implements ISubjectsService {
     return rpta;
   }
 
+  /**
+   * Funcion que busca por ID.
+   */
   @Override
   public Optional<Subjects> findByID(int id) {
 
     return dao.findById(id);
   }
 
-   @Override
-	public void softdelete(int id) {
-		dao.softDelete(id);
-	}
+  /**
+   * Funcion que actualiza a un objeto Subjects.
+   */
+  @Override
+  public void softdelete(int id) {
+    dao.softDelete(id);
+  }
 
-@Override
-public Subjects patchUpd(Subjects subj) {
-	
-	return dao.save(subj);
-}
+  /**
+   * Funcion que actualiza a un objeto Subjects.
+   */
+  @Override
+  public Subjects patchUpd(Subjects subj) {
+
+    return dao.save(subj);
+  }
+
+  @Override
+  public Optional<Subjects> patchFindById(int id) {
+    
+    return dao.findById(id);
+  }
 
 }

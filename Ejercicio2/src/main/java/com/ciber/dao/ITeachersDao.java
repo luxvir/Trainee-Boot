@@ -10,21 +10,19 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
+public interface ITeachersDao extends CrudRepository<Teachers, Integer> {
 
+  @Override
+  @Query("select e from Teachers e where e.deleteStatus=0")
+  @Transactional
+  public List<Teachers> findAll();
 
-public interface ITeachersDao extends CrudRepository<Teachers,Integer> {
+  @Query("select e from Teachers e where e.deleteStatus=1")
+  @Transactional
+  public List<Teachers> findDelete();
 
-	@Override
-	@Query("select e from Teachers e where e.deleteStatus=0")
-	@Transactional
-	public List<Teachers> findAll();
-
-	@Query("select e from Teachers e where e.deleteStatus=1")
-	@Transactional
-	public List<Teachers> findDelete();
-
-	@Query("update Teachers e set e.deleteStatus=1 where e.teacherId=?1")
-	@Transactional
-	@Modifying
-	public void softDelete(int id);
+  @Query("update Teachers e set e.deleteStatus=1 where e.teacherId=?1")
+  @Transactional
+  @Modifying
+  public void softDelete(int id);
 }

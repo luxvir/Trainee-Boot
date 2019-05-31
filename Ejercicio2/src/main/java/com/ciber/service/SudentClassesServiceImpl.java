@@ -1,4 +1,4 @@
-package com.ciber.server;
+package com.ciber.service;
 
 import com.ciber.dao.IClassesDao;
 import com.ciber.dao.IStudentClassesDao;
@@ -18,14 +18,21 @@ public class SudentClassesServiceImpl implements IStudentClassesService {
   Logger log = LoggerFactory.getLogger(this.getClass());
   @Autowired
   private IStudentClassesDao dao;
+  @Autowired
   private IClassesDao daoClas;
 
+  /**
+   * Funcion que lista todos los estudiantes de un Clase.
+   */
   @Override
   public List<StudentClasses> findAll() {
 
     return (List<StudentClasses>) dao.findAll();
   }
 
+  /**
+  * Funcion que se encargara de registar un estudiante de clase.
+  */
   @Override
   public StudentClasses create(StudentClasses stu) {
     StudentClasses studen = new StudentClasses();
@@ -40,12 +47,18 @@ public class SudentClassesServiceImpl implements IStudentClassesService {
     return studen;
   }
 
+  /**
+   * Funcion que se encarga de actualizar una Clase.
+   */
   @Override
   public StudentClasses update(StudentClasses stu) {
 
     return dao.save(stu);
   }
 
+  /**
+   * Funcion que elemina a un estudiante de clase.
+   */
   @Override
   public int delete(StudentClasses stu) {
 
@@ -61,10 +74,21 @@ public class SudentClassesServiceImpl implements IStudentClassesService {
     return rpta;
   }
 
+  /**
+   * Funcion que busca por sus PKs.
+   */
   @Override
   public Optional<StudentClasses> findByID(int id) {
-    
+
     return dao.findById(id);
+  }
+
+  /**
+   * oooooooooooo
+   */
+  @Override
+  public List<Integer> getAllIdsByClassId(int classId) {
+    return dao.findByClassesClassesId(classId);
   }
 
 }

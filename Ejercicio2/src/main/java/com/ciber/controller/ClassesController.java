@@ -2,11 +2,7 @@ package com.ciber.controller;
 
 import com.ciber.exception.ModeloNotFoundException;
 import com.ciber.model.Classes;
-import com.ciber.model.Subjects;
-import com.ciber.model.Teachers;
-import com.ciber.server.IClassesService;
-import com.ciber.server.ISubjectsService;
-import com.ciber.server.ITeachersService;
+import com.ciber.service.IClassesService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -26,8 +22,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-
-
 @Api(value = "Spring Boot Swagger rest", description = "Mostar información")
 @RestController
 public class ClassesController {
@@ -36,8 +30,6 @@ public class ClassesController {
 
   @Autowired
   private IClassesService service;
-  private ITeachersService serviceTea;
-  private ISubjectsService serviceSub;
 
   /**
    * La función listClasses() retorna la lista de Classes.
@@ -73,11 +65,12 @@ public class ClassesController {
   @PutMapping(value = "/api/v1/classes", consumes = "application/json", produces = "application/json")
   public ResponseEntity<Classes> updateClasses(@RequestBody Classes cla) {
     String mensaje = "";
+    log.info("ingreso al controller");
     Optional<Classes> c = service.findByID(cla.getClassesId());
-    Optional<Subjects> s = serviceSub.findByID(cla.getSubjects().getSubjectId());
-    Optional<Teachers> t = serviceTea.findByID(cla.getTeachers().getTeacherId());
-    if (c.isPresent() && s.isPresent() && t.isPresent()) {
+    if (c.isPresent()) {
+      log.info("id " + cla.getClassesId());
       return new ResponseEntity<Classes>(service.update(cla), HttpStatus.OK);
+
     } else {
       mensaje = "error " + cla.getClassesId();
       throw new ModeloNotFoundException(mensaje);
@@ -116,32 +109,51 @@ public class ClassesController {
    * @param id parametro de filtro.
    * @return id.
    */
-  @ApiOperation(value = "Retorna inforacion de classes  por su Id")
-  @GetMapping(value = "/api/v1/classes/{id}")
-  public ResponseEntity<Object> listById(@PathVariable("id") Integer id) {
-
+  /*
+   * @ApiOperation(value = "Retorna inforacion de classes  por su Id")
+   * 
+   * @GetMapping(value = "/api/v1/classes/{id}") public ResponseEntity<Object>
+   * listById(@PathVariable("id") Integer id) {
+   * 
+   * String mensaje = ""; Optional<Classes> cla = service.findByID(id);
+   * 
+   * if (cla.isPresent()) { return new ResponseEntity<Object>(cla, HttpStatus.OK);
+   * } else { mensaje = "error  " + id; throw new
+   * ModeloNotFoundException(mensaje); } }
+   */
+  /**
+   * La función delete() se encarga de actualizar su estado a un objeto Classes
+   * por su código.
+   * 
+   */
+  @ApiOperation(value = "Eliminar Classes")
+  @DeleteMapping(value = "/api/v1/classes/{id}")
+  public void delete(@PathVariable("id") int id) {
+    Optional<Classes> s = service.findByID(id);
     String mensaje = "";
-    Optional<Classes> cla = service.findByID(id);
-
-    if (cla.isPresent()) {
-      return new ResponseEntity<Object>(cla, HttpStatus.OK);
+    if (s.isPresent()) {
+      log.warn("Un Classes fue Eliminado");
+      service.softdelete(id);
     } else {
-      mensaje = "error  " + id;
+      mensaje = "error en el ID " + id;
       throw new ModeloNotFoundException(mensaje);
     }
   }
   
-	
-	@ApiOperation(value = "Eliminar Classes")
-	@DeleteMapping(value = "/api/v1/classes/{id}") 
-	public void delete(@PathVariable("id") int  id) { 
-		  Optional<Classes> s = service.findByID(id); String mensaje = ""; 
-		  if (s.isPresent()) { 
-			  log.warn("Un Classes fue Eliminado");
-			  service.softdelete(id);
-		  } else { mensaje = "error en el ID " +id; throw new
-		  	  ModeloNotFoundException(mensaje); 
-		  } 
-	}
-	 
+  
+  /************************************************/
+/**
+ * 
+ * @param classId
+ * @return
+ * @throws ClassNotFoundException
+ */
+  @GetMapping("/api/v1/classes/{classId}")
+  public Classes getOne(@PathVariable(value = "classId") int classId) throws ClassNotFoundException {
+    Classes c = service.getOne(classId);
+    if (c == null) {
+      throw new ClassNotFoundException("classId: " + classId);
+    }
+    return c;
+  }
 }

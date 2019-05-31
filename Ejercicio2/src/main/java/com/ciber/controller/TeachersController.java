@@ -2,7 +2,7 @@ package com.ciber.controller;
 
 import com.ciber.exception.ModeloNotFoundException;
 import com.ciber.model.Teachers;
-import com.ciber.server.ITeachersService;
+import com.ciber.service.ITeachersService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -50,9 +50,9 @@ public class TeachersController {
    */
   @ApiOperation(value = "Crea a una teachers")
   @PostMapping(value = "/api/v1/teachers", consumes = "application/json", 
-      produces = "application/json")
+        produces = "application/json")
   public ResponseEntity<Teachers> createTeachers(@RequestBody Teachers teach) {
-
+    System.out.println("entro a implement   implements");
     return new ResponseEntity<Teachers>(service.create(teach), HttpStatus.CREATED);
   }
 
@@ -86,7 +86,7 @@ public class TeachersController {
    */
   @ApiOperation(value = "Elimina datos de una teachers")
   @DeleteMapping(value = "/api/v1/teachers", consumes = "application/json", 
-          produces = "application/json")
+      produces = "application/json")
   public ResponseEntity<Integer> deleteTeachers(@RequestBody Teachers teach) {
     int rpta = 0;
     String mensaje = "";
@@ -124,19 +124,24 @@ public class TeachersController {
       throw new ModeloNotFoundException(mensaje);
     }
   }
-  
+
+  /**
+   * La función delete() se encarga de actualizar su estado a un 
+   * objeto Teachers por su código.
+   * 
+   */
   @ApiOperation(value = "Eliminar Teachers")
-  @DeleteMapping(value = "/{id}")
+  @DeleteMapping(value = "/api/v1/teachers/{id}")
   public void delete(@PathVariable("id") int id) {
-	  Optional<Teachers> s = service.findByID(id);
-		String mensaje = "";
-	    if (s.isPresent()) {
-	    	log.warn("Un Teachers fue Eliminado");
-	    	service.softdelete(id);
-	    } else {
-	    	mensaje = "error en el ID " +id;
-	    	throw new ModeloNotFoundException(mensaje);
-	    }
+    Optional<Teachers> s = service.findByID(id);
+    String mensaje = "";
+    if (s.isPresent()) {
+      log.warn("Un Teachers fue Eliminado");
+      service.softdelete(id);
+    } else {
+      mensaje = "error en el ID " + id;
+      throw new ModeloNotFoundException(mensaje);
+    }
   }
 
 }

@@ -2,13 +2,12 @@ package com.ciber.controller;
 
 import com.ciber.exception.ModeloNotFoundException;
 import com.ciber.model.Subjects;
-import com.ciber.server.ISubjectsService;
+import com.ciber.service.ISubjectsService;
+
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
-import java.lang.reflect.Field;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 
 import org.slf4j.Logger;
@@ -50,7 +49,8 @@ public class SubjectsController {
    * @return object subjects.
    */
   @ApiOperation(value = "Crea a una subjects")
-  @PostMapping(value = "/api/v1/subjects", consumes = "application/json", produces = "application/json")
+  @PostMapping(value = "/api/v1/subjects", consumes = "application/json", 
+        produces = "application/json")
   public ResponseEntity<Subjects> createSubjectss(@RequestBody Subjects sub) {
 
     return new ResponseEntity<Subjects>(service.create(sub), HttpStatus.CREATED);
@@ -63,7 +63,8 @@ public class SubjectsController {
    * @return object subjects.
    */
   @ApiOperation(value = "Actualiza a una subjects")
-  @PutMapping(value = "/api/v1/subjects", consumes = "application/json", produces = "application/json")
+  @PutMapping(value = "/api/v1/subjects", consumes = "application/json", 
+        produces = "application/json")
   public ResponseEntity<Subjects> updateSubjects(@RequestBody Subjects sub) {
     String mensaje = "";
     Optional<Subjects> s = service.findByID(sub.getSubjectId());
@@ -84,7 +85,8 @@ public class SubjectsController {
    * @return object subjects delete.
    */
   @ApiOperation(value = "Elimina datos de una subjects")
-  @DeleteMapping(value = "/api/v1/subjects", consumes = "application/json", produces = "application/json")
+  @DeleteMapping(value = "/api/v1/subjects", consumes = "application/json", 
+        produces = "application/json")
   public ResponseEntity<Integer> deleteSubjects(@RequestBody Subjects sub) {
     int rpta = 0;
     String mensaje = "";
@@ -100,21 +102,28 @@ public class SubjectsController {
       throw new ModeloNotFoundException(mensaje);
     }
   }
+
+
+  /**
+   * La función delete() se encarga de actualizar su estado a un 
+   * objeto subjects por su código.
+   * 
+   */
+  @ApiOperation(value = "Eliminar Subject")
+  @DeleteMapping(value = "/api/v1/subjects/{id}")
+  public void delete(@PathVariable("id") int id) {
+    Optional<Subjects> s = service.findByID(id);
+    String mensaje = "";
+    if (s.isPresent()) {
+      log.warn("Un Subject Fue Eliminado");
+      service.softdelete(id);
+    } else {
+      mensaje = "error en el ID " + id;
+      throw new ModeloNotFoundException(mensaje);
+    }
+
+  }
   
-	
-	  @ApiOperation(value = "Eliminar Subject")
-	  @DeleteMapping(value = "/api/v1/subjects/{id}") 
-	  public void delete(@PathVariable("id") int id) {	  
-		  Optional<Subjects> s = service.findByID(id); 
-		  String mensaje = ""; 
-		  if (s.isPresent()) { 
-			  log.warn("Un Subject Fue Eliminado");
-			  service.softdelete(id); 
-		  } else { mensaje = "error en el ID " +id; throw new
-		  ModeloNotFoundException(mensaje); }
-		  
-	  }
-	 
-  
+ 
 
 }
