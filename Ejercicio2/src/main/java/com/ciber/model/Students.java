@@ -58,8 +58,6 @@ public class Students {
   @Column(name = "other_students_details", length = 100, nullable = false)
   private String otherStudentsDetails;
 
-  @JsonIgnore
-  @ManyToMany(mappedBy = "students")
-  private List<Parents> parents;
+
 
 }

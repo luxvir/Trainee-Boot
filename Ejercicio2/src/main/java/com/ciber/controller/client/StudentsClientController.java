@@ -14,30 +14,28 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-
+@RequestMapping("/api")
 @RestController
 public class StudentsClientController {
 
   @Autowired
   StudentsServiceClient service;
 
-  public StudentsClientController(StudentsServiceClient service) {
-    this.service = service;
-  }
 
   /**
    * HystrixCommand se encarga de controlar los servicios.
-   * @return
-   * @throws InterruptedException
+   * @return un mensaje de error.
+   * @throws InterruptedException excepcion.
    */
-  @HystrixCommand(fallbackMethod = "fallback_list", commandProperties = {
-      @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1000") })
-  @GetMapping("api/versions")
+  /*@HystrixCommand(fallbackMethod = "fallback_list", commandProperties = {
+      @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "2000") })*/
+  @GetMapping("/versions/students")
   public List<Students> getStudnts() throws InterruptedException {
-    Thread.sleep(2000);
+    Thread.sleep(800);
     return service.getStudents();
   }
 
@@ -47,7 +45,7 @@ public class StudentsClientController {
    */
   public List<Object> fallback_list() {
     List<Object> e = new ArrayList<>();
-    e.add("Error");
+    e.add("Error!!");
     return e;
   }
 
@@ -57,7 +55,7 @@ public class StudentsClientController {
    * @return lista de estudiantes.
    * @throws InterruptedException error.
    */
-  @PostMapping("api/versions/listIds/")
+  @PostMapping("/versions/listIds/")
   public ResponseEntity<List<Students>> listAllStudentById(@RequestBody List<Integer> listStudnt)
       throws InterruptedException {
     return new ResponseEntity<List<Students>>(service.listAllStudentById(listStudnt), 

@@ -15,7 +15,7 @@ public interface StudentsServiceClient {
    * Funcion que obtiene la lista de estudintes.
    * @return lista de estudiantes.
    */
-  @RequestMapping(value = "/api/v1/students", method = RequestMethod.GET)
+  @RequestMapping(value = "/api/v1/students",method = RequestMethod.GET)
   List<Students> getStudents();
 
   /**

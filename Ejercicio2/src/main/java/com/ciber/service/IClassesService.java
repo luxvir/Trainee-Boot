@@ -50,10 +50,9 @@ public interface IClassesService {
    */
   void softdelete(int id);
   
-  /***********************************************************/
   /**
-   * 
-   * @param clasId
+   * Obtener la lista de clases por su ID.
+   * @param clasId parametro de Clase.
    * @return
    */
   Classes getOne(int clasId);

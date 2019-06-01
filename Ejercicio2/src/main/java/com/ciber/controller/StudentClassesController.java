@@ -8,7 +8,6 @@ import com.ciber.model.Students;
 import com.ciber.service.IClassesService;
 import com.ciber.service.IStudentClassesService;
 import com.ciber.service.feign.StudentsServiceClient;
-import com.netflix.discovery.provider.ISerializer;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -113,7 +112,7 @@ public class StudentClassesController {
   }
 
   /**
-   * modificado feign
+   * Lo necesario para Listar. 
    */
   
   List<Integer> listStudentIds = new ArrayList<Integer>();
@@ -135,6 +134,11 @@ public class StudentClassesController {
     return service.getAllIdsByClassId(classId);
   }
 
+  /**
+   * Lista a los estudiantes por CLase ID.
+   * @param classId parametro de Clase.
+   * @return lista de clase por ID.
+   */
   @GetMapping("/api/v1/studentClasses/ids/{classId}")
   public DtoClasses getClassAndAllStudentsByClassId(@PathVariable Integer classId) {
     listStudentIds = (List<Integer>) getAllIdsByClassId(classId);
@@ -164,8 +168,4 @@ public class StudentClassesController {
     return dtoClase;
   }
 
-  /*********/
-  public List<Students> getStudentsByIds(List<Integer> listStudentIds) {
-   return  studentsServiceClient.listAllStudentById(listStudentIds);
-  }
 }

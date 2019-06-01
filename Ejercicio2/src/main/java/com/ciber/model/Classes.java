@@ -70,6 +70,14 @@ public class Classes {
   @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy", timezone = "America/Bogota")
   private Date dateTo;
 
+  public Classes(int classesId, String classCode, String className) {
+    super();
+    this.classesId = classesId;
+    this.classCode = classCode;
+    this.className = className;
+ 
+  }
+
   @JsonIgnore
   @Column(name = "delete_status")
   private int deleteStatus = 0;

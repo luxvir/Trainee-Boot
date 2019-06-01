@@ -109,6 +109,7 @@ public class ClassesController {
    * @param id parametro de filtro.
    * @return id.
    */
+
   /*
    * @ApiOperation(value = "Retorna inforacion de classes  por su Id")
    * 
@@ -121,6 +122,7 @@ public class ClassesController {
    * } else { mensaje = "error  " + id; throw new
    * ModeloNotFoundException(mensaje); } }
    */
+
   /**
    * La función delete() se encarga de actualizar su estado a un objeto Classes
    * por su código.
@@ -139,15 +141,14 @@ public class ClassesController {
       throw new ModeloNotFoundException(mensaje);
     }
   }
-  
-  
-  /************************************************/
-/**
- * 
- * @param classId
- * @return
- * @throws ClassNotFoundException
- */
+
+  /**
+   * Obtener la lista de clase por un ID.
+   * 
+   * @param classId parametro de clase.
+   * @return lista de clase filtrado por ID.
+   * @throws ClassNotFoundException exception.
+   */
   @GetMapping("/api/v1/classes/{classId}")
   public Classes getOne(@PathVariable(value = "classId") int classId) throws ClassNotFoundException {
     Classes c = service.getOne(classId);

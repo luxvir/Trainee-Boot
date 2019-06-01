@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -32,46 +33,100 @@ public class SubjectsControllerTest {
   @MockBean
   private SubjectsServiceImpl subjectsServiceImpl;
 
-  Subjects subjectMock = new Subjects(9, "Ana", 0);
   List<Subjects> listSubjectsMock = new ArrayList<Subjects>();
 
   @Test
   public void testListSubjects() throws Exception {
-    listSubjectsMock.add(new Subjects(9, "Ana", 0));
-    listSubjectsMock.add(new Subjects(10, "Dan", 0));
+    listSubjectsMock.add(new Subjects(9, "Matematica"));
+    listSubjectsMock.add(new Subjects(10, "Algebra"));
 
     Mockito.when(subjectsServiceImpl.findAll()).thenReturn(listSubjectsMock);
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/subjects/")
-        .accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/subjects").accept(MediaType.APPLICATION_JSON);
 
-    MvcResult result = (MvcResult) mockMvc.perform(requestBuilder);
+    MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
     System.out.println(result.getResponse());
-    String expected = "[{subjectId:9,subjectName:Ana,deleteStatus:0},"
-                      + "{{subjectId:10,subjectName:Dan,deleteStatus:0}]";
+    String expected = "[{subjectId:9,subjectName:Matematica},{subjectId:10,subjectName:Algebra}]";
 
     JSONAssert.assertEquals(expected, result.getResponse().getContentAsString(), true);
   }
 
   @Test
-  public void testCreateSubjectss() {
-    fail("Not yet implemented");
+  public void testListSubjectsFalse() throws Exception {
+    listSubjectsMock.add(new Subjects(9, "Matematica"));
+    listSubjectsMock.add(new Subjects(10, "Algebra"));
+
+    Mockito.when(subjectsServiceImpl.findAll()).thenReturn(listSubjectsMock);
+
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/subjects").accept(MediaType.APPLICATION_JSON);
+
+    MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+
+    System.out.println(result.getResponse());
+    String expected = "[{subjectId:11,subjectName:Matematica},{subjectId:10,subjectName:Algebra}]";
+
+    JSONAssert.assertNotEquals(expected, result.getResponse().getContentAsString(), true);
   }
 
   @Test
-  public void testUpdateSubjects() {
-    fail("Not yet implemented");
+  public void testListSubjectsByID() throws Exception {
+    Subjects subjectMock = new Subjects(9, "Matematica");
+
+    Mockito.when(subjectsServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(subjectMock));
+
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/subjects/9").accept(MediaType.APPLICATION_JSON);
+
+    MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+
+    System.out.println(result.getResponse());
+    String expected = "{subjectId:9,subjectName:Matematica}";
+
+    JSONAssert.assertEquals(expected, result.getResponse().getContentAsString(), true);
   }
 
   @Test
-  public void testDeleteSubjects() {
-    fail("Not yet implemented");
+  public void testListSubjectsByIDFalse() throws Exception {
+    Subjects subjectMock = new Subjects(9, "Matematica");
+
+    Mockito.when(subjectsServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(subjectMock));
+
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/subjects/9").accept(MediaType.APPLICATION_JSON);
+
+    MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+
+    System.out.println(result.getResponse());
+    String expected = "{subjectId:11,subjectName:Matematica}";
+
+    JSONAssert.assertNotEquals(expected, result.getResponse().getContentAsString(), true);
   }
 
   @Test
-  public void testDelete() {
-    fail("Not yet implemented");
+  public void testEliminar() throws Exception {
+    Subjects subjectMock = new Subjects(9, "Matematica");
+    Mockito.when(subjectsServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(subjectMock));
+
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v1/subjects/9")
+        .accept(MediaType.APPLICATION_JSON);
+
+    MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+    System.out.println(result.getResponse());
+
   }
+
+  @Test
+  public void testEliminarFalse() throws Exception {
+    Subjects subjectMock = new Subjects(9, "Matematica");
+    Mockito.when(subjectsServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(subjectMock));
+
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v1/subjects/1")
+        .accept(MediaType.APPLICATION_JSON);
+
+    MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+    System.out.println(result.getResponse());
+
+  }
+  
+
 
 }

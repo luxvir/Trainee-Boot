@@ -1,6 +1,8 @@
 package com.ciber.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.Column;
@@ -15,6 +17,9 @@ import javax.persistence.OneToMany;
 import javax.validation.constraints.NotNull;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 /**
  * La clase Families es un modelo que define un conjunto de variables el estado,
@@ -24,7 +29,9 @@ import lombok.Data;
  * @author vperezqu.
  *
  */
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
 @Entity
 public class Families {
 
@@ -44,5 +51,13 @@ public class Families {
   @JsonIgnore
   @OneToMany(mappedBy = "families")
   private List<FamilyMembers> familyMembers;
+
+  public Families(int familyId, @NotNull String familyName) {
+    super();
+    this.familyId = familyId;
+    this.familyName = familyName;
+  }
+  
+  
 
 }

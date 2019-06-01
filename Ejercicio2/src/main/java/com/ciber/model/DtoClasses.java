@@ -1,27 +1,15 @@
 package com.ciber.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.Date;
 import java.util.List;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-
-import org.springframework.stereotype.Component;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import org.springframework.stereotype.Component;
+
+
 
 /**
  * La clase Classes es un modelo que define un conjunto de variables el estado,
@@ -45,6 +33,6 @@ public class DtoClasses {
   private String className;
   private Date dateFrom;
   private Date dateTo;
-  private int deleteStatus=0;
+  private int deleteStatus = 0;
   private List<Students> listStudents;
 }

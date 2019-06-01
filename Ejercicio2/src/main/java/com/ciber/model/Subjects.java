@@ -50,11 +50,11 @@ public class Subjects {
   @Column(name = "delete_status")
   private int deleteStatus = 0;
 
-  public Subjects(int subjectId, String subjectName, int deleteStatus) {
+  public Subjects(int subjectId, String subjectName) {
     super();
     this.subjectId = subjectId;
     this.subjectName = subjectName;
-    this.deleteStatus = deleteStatus;
+
   }
   
   

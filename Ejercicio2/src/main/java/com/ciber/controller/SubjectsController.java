@@ -2,6 +2,7 @@ package com.ciber.controller;
 
 import com.ciber.exception.ModeloNotFoundException;
 import com.ciber.model.Subjects;
+import com.ciber.model.Teachers;
 import com.ciber.service.ISubjectsService;
 
 import io.swagger.annotations.Api;
@@ -72,7 +73,7 @@ public class SubjectsController {
     if (s.isPresent()) {
       return new ResponseEntity<Subjects>(service.update(sub), HttpStatus.OK);
     } else {
-      mensaje = "error " + sub.getSubjectId();
+      mensaje = "error en el ID " + sub.getSubjectId();
       throw new ModeloNotFoundException(mensaje);
     }
   }
@@ -124,6 +125,27 @@ public class SubjectsController {
 
   }
   
+  /**
+   * La función listById() se le envia un parametro id y retorna a la subjects de
+   * ese id.
+   * 
+   * @param id parametro de filtro.
+   * @return id.
+   */
+  @ApiOperation(value = "Retorna inforacion de subjects  por su Id")
+  @GetMapping(value = "/api/v1/subjects/{id}")
+  public ResponseEntity<Object> listById(@PathVariable("id") Integer id) {
+
+    String mensaje = "";
+    Optional<Subjects> teach = service.findByID(id);
+
+    if (teach.isPresent()) {
+      return new ResponseEntity<Object>(teach, HttpStatus.OK);
+    } else {
+      mensaje = "Error en el ID : " + id;
+      throw new ModeloNotFoundException(mensaje);
+    }
+  }
  
 
 }

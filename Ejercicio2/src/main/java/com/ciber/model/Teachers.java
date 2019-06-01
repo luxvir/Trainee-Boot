@@ -58,4 +58,19 @@ public class Teachers {
   @JsonIgnore
   @Column(name = "delete_status")
   private int deleteStatus = 0;
+
+  public Teachers(int teacherId, int schoolId, String gender, String firstName, String middleName, String lastName,
+      String otherTeacherDetails) {
+    super();
+    this.teacherId = teacherId;
+    this.schoolId = schoolId;
+    this.gender = gender;
+    this.firstName = firstName;
+    this.middleName = middleName;
+    this.lastName = lastName;
+    this.otherTeacherDetails = otherTeacherDetails;
+  }
+  
+  
+  
 }
