@@ -37,7 +37,7 @@ public class ClassesController {
    * @return list of classes.
    */
   @ApiOperation(value = "Retorna lista de classes")
-  @GetMapping(value = "/api/v1/classes")
+  @GetMapping(value = "/api/v2/classes")
   public ResponseEntity<List<Classes>> listClasses() {
     return new ResponseEntity<List<Classes>>(service.findAll(), HttpStatus.OK);
   }
@@ -49,7 +49,7 @@ public class ClassesController {
    * @return object classes.
    */
   @ApiOperation(value = "Crea a una classes")
-  @PostMapping(value = "/api/v1/classes", consumes = "application/json", produces = "application/json")
+  @PostMapping(value = "/api/v2/classes", consumes = "application/json", produces = "application/json")
   public ResponseEntity<Classes> createClasses(@RequestBody Classes cla) {
 
     return new ResponseEntity<Classes>(service.create(cla), HttpStatus.CREATED);
@@ -62,16 +62,15 @@ public class ClassesController {
    * @return object classes.
    */
   @ApiOperation(value = "Actualiza a una classes")
-  @PutMapping(value = "/api/v1/classes", consumes = "application/json", produces = "application/json")
+  @PutMapping(value = "/api/v2/classes", consumes = "application/json", produces = "application/json")
   public ResponseEntity<Classes> updateClasses(@RequestBody Classes cla) {
     String mensaje = "";
-    log.info("ingreso al controller");
+    log.info("ingreso al classesController");
     Optional<Classes> c = service.findByID(cla.getClassesId());
     if (c.isPresent()) {
       log.info("id " + cla.getClassesId());
       return new ResponseEntity<Classes>(service.update(cla), HttpStatus.OK);
-
-    } else {
+    } else {  	
       mensaje = "error " + cla.getClassesId();
       throw new ModeloNotFoundException(mensaje);
     }
@@ -85,7 +84,7 @@ public class ClassesController {
    * @return object classes delete.
    */
   @ApiOperation(value = "Elimina datos de una classes")
-  @DeleteMapping(value = "/api/v1/classes", consumes = "application/json", produces = "application/json")
+  @DeleteMapping(value = "/api/v2/classes", consumes = "application/json", produces = "application/json")
   public ResponseEntity<Integer> deleteClasses(@RequestBody Classes cla) {
     int rpta = 0;
     String mensaje = "";
@@ -93,11 +92,11 @@ public class ClassesController {
     Optional<Classes> fa = service.findByID(cla.getClassesId());
 
     if (fa.isPresent()) {
-      log.info("id " + cla.getClassesId());
+      log.info("ID : " + cla.getClassesId());
       rpta = service.delete(cla.getClassesId());
       return new ResponseEntity<Integer>(rpta, HttpStatus.OK);
     } else {
-      mensaje = "error ID " + cla.getClassesId();
+      mensaje = "Error en el ID: " + cla.getClassesId();
       throw new ModeloNotFoundException(mensaje);
     }
   }
@@ -129,7 +128,7 @@ public class ClassesController {
    * 
    */
   @ApiOperation(value = "Eliminar Classes")
-  @DeleteMapping(value = "/api/v1/classes/{id}")
+  @DeleteMapping(value = "/api/v2/classes/{id}")
   public void delete(@PathVariable("id") int id) {
     Optional<Classes> s = service.findByID(id);
     String mensaje = "";
@@ -137,7 +136,7 @@ public class ClassesController {
       log.warn("Un Classes fue Eliminado");
       service.softdelete(id);
     } else {
-      mensaje = "error en el ID " + id;
+      mensaje = "Error en el ID : " + id;
       throw new ModeloNotFoundException(mensaje);
     }
   }
@@ -149,7 +148,7 @@ public class ClassesController {
    * @return lista de clase filtrado por ID.
    * @throws ClassNotFoundException exception.
    */
-  @GetMapping("/api/v1/classes/{classId}")
+  @GetMapping("/api/v2/classes/{classId}")
   public Classes getOne(@PathVariable(value = "classId") int classId) throws ClassNotFoundException {
     Classes c = service.getOne(classId);
     if (c == null) {

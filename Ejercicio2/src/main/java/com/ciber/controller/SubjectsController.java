@@ -2,7 +2,6 @@ package com.ciber.controller;
 
 import com.ciber.exception.ModeloNotFoundException;
 import com.ciber.model.Subjects;
-import com.ciber.model.Teachers;
 import com.ciber.service.ISubjectsService;
 
 import io.swagger.annotations.Api;
@@ -38,7 +37,7 @@ public class SubjectsController {
    * @return list of subjects.
    */
   @ApiOperation(value = "Retorna lista de subjects")
-  @GetMapping(value = "/api/v1/subjects")
+  @GetMapping(value = "/api/v2/subjects")
   public ResponseEntity<List<Subjects>> listSubjects() {
     return new ResponseEntity<List<Subjects>>(service.findAll(), HttpStatus.OK);
   }
@@ -50,7 +49,7 @@ public class SubjectsController {
    * @return object subjects.
    */
   @ApiOperation(value = "Crea a una subjects")
-  @PostMapping(value = "/api/v1/subjects", consumes = "application/json", 
+  @PostMapping(value = "/api/v2/subjects", consumes = "application/json", 
         produces = "application/json")
   public ResponseEntity<Subjects> createSubjectss(@RequestBody Subjects sub) {
 
@@ -64,7 +63,7 @@ public class SubjectsController {
    * @return object subjects.
    */
   @ApiOperation(value = "Actualiza a una subjects")
-  @PutMapping(value = "/api/v1/subjects", consumes = "application/json", 
+  @PutMapping(value = "/api/v2/subjects", consumes = "application/json", 
         produces = "application/json")
   public ResponseEntity<Subjects> updateSubjects(@RequestBody Subjects sub) {
     String mensaje = "";
@@ -73,7 +72,7 @@ public class SubjectsController {
     if (s.isPresent()) {
       return new ResponseEntity<Subjects>(service.update(sub), HttpStatus.OK);
     } else {
-      mensaje = "error en el ID " + sub.getSubjectId();
+      mensaje = "Error en el ID : " + sub.getSubjectId();
       throw new ModeloNotFoundException(mensaje);
     }
   }
@@ -86,7 +85,7 @@ public class SubjectsController {
    * @return object subjects delete.
    */
   @ApiOperation(value = "Elimina datos de una subjects")
-  @DeleteMapping(value = "/api/v1/subjects", consumes = "application/json", 
+  @DeleteMapping(value = "/api/v2/subjects", consumes = "application/json", 
         produces = "application/json")
   public ResponseEntity<Integer> deleteSubjects(@RequestBody Subjects sub) {
     int rpta = 0;
@@ -99,7 +98,7 @@ public class SubjectsController {
       rpta = service.delete(sub.getSubjectId());
       return new ResponseEntity<Integer>(rpta, HttpStatus.OK);
     } else {
-      mensaje = "error ID " + sub.getSubjectId();
+      mensaje = "Error en el ID : " + sub.getSubjectId();
       throw new ModeloNotFoundException(mensaje);
     }
   }
@@ -111,7 +110,7 @@ public class SubjectsController {
    * 
    */
   @ApiOperation(value = "Eliminar Subject")
-  @DeleteMapping(value = "/api/v1/subjects/{id}")
+  @DeleteMapping(value = "/api/v2/subjects/{id}")
   public void delete(@PathVariable("id") int id) {
     Optional<Subjects> s = service.findByID(id);
     String mensaje = "";
@@ -119,7 +118,7 @@ public class SubjectsController {
       log.warn("Un Subject Fue Eliminado");
       service.softdelete(id);
     } else {
-      mensaje = "error en el ID " + id;
+      mensaje = "Error en el ID : " + id;
       throw new ModeloNotFoundException(mensaje);
     }
 
@@ -133,7 +132,7 @@ public class SubjectsController {
    * @return id.
    */
   @ApiOperation(value = "Retorna inforacion de subjects  por su Id")
-  @GetMapping(value = "/api/v1/subjects/{id}")
+  @GetMapping(value = "/api/v2/subjects/{id}")
   public ResponseEntity<Object> listById(@PathVariable("id") Integer id) {
 
     String mensaje = "";

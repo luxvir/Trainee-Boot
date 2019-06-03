@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@Api(value = "Spring Boot Swagger rest", description = "Mostar información")
+@Api(value = "Swagger rest", description = "Mostar información")
 @RestController
 public class StudentClassesController {
 
@@ -44,7 +44,7 @@ public class StudentClassesController {
    * @return list of student Classes.
    */
   @ApiOperation(value = "Retorna lista de student Classes")
-  @GetMapping(value = "/api/v1/studentClasses")
+  @GetMapping(value = "/api/v2/studentClasses")
   public ResponseEntity<List<StudentClasses>> listStudentClasses() {
     return new ResponseEntity<List<StudentClasses>>(service.findAll(), HttpStatus.OK);
   }
@@ -57,7 +57,7 @@ public class StudentClassesController {
    * @return object student Classes.
    */
   @ApiOperation(value = "Crea a una student Classes")
-  @PostMapping(value = "/api/v1/studentClasses", consumes = "application/json", produces = "application/json")
+  @PostMapping(value = "/api/v2/studentClasses", consumes = "application/json", produces = "application/json")
   public ResponseEntity<StudentClasses> createfamilies(@RequestBody StudentClasses stu) {
 
     return new ResponseEntity<StudentClasses>(service.create(stu), HttpStatus.CREATED);
@@ -71,7 +71,7 @@ public class StudentClassesController {
    * @return object student Classes.
    */
   @ApiOperation(value = "Actualiza a una student Classes")
-  @PutMapping(value = "/api/v1/studentClasses", consumes = "application/json", produces = "application/json")
+  @PutMapping(value = "/api/v2/studentClasses", consumes = "application/json", produces = "application/json")
   public ResponseEntity<StudentClasses> updateStudentClasse(@RequestBody StudentClasses stuClass) {
     String mensaje = "";
     Optional<StudentClasses> stu = service.findByID(stuClass.getStudents().getStudentId());
@@ -79,7 +79,7 @@ public class StudentClassesController {
     if (stu.isPresent()) {
       return new ResponseEntity<StudentClasses>(service.update(stuClass), HttpStatus.OK);
     } else {
-      mensaje = "error " + stuClass.getClasses().getClassesId();
+      mensaje = "Error en el ID: " + stuClass.getClasses().getClassesId();
       throw new ModeloNotFoundException(mensaje);
     }
   }
@@ -93,7 +93,7 @@ public class StudentClassesController {
    */
 
   @ApiOperation(value = "Elimina datos de una studentClasses")
-  @DeleteMapping(value = "/api/v1/studentClasses", consumes = "application/json", produces = "application/json")
+  @DeleteMapping(value = "/api/v2/studentClasses", consumes = "application/json", produces = "application/json")
   public ResponseEntity<Integer> deleteTeachers(@RequestBody StudentClasses stuClass) {
     int rpta = 0;
     String mensaje = "";
@@ -101,12 +101,12 @@ public class StudentClassesController {
     Optional<StudentClasses> s = service.findByID(stuClass.getStudents().getStudentId());
     Optional<StudentClasses> c = service.findByID(stuClass.getClasses().getClassesId());
     if (s.isPresent() && c.isPresent()) {
-      log.info("id student : " + stuClass.getStudents().getStudentId() + " - " + "id teacher: "
+      log.info("ID student : " + stuClass.getStudents().getStudentId() + " - " + "ID teacher: "
           + stuClass.getClasses().getClassesId());
       rpta = service.delete(stuClass);
       return new ResponseEntity<Integer>(rpta, HttpStatus.OK);
     } else {
-      mensaje = "error en  StudentClasses";
+      mensaje = "Error en  Student Classes";
       throw new ModeloNotFoundException(mensaje);
     }
   }
@@ -116,7 +116,6 @@ public class StudentClassesController {
    */
   
   List<Integer> listStudentIds = new ArrayList<Integer>();
-  
   List<Students> listStudents = new ArrayList<Students>();
   // llamo al feign service
   @Autowired
@@ -128,9 +127,8 @@ public class StudentClassesController {
   @Autowired
   private IClassesService serviceClass;
 
-  @GetMapping("/api/v1/studentClasses/ids")
+  @GetMapping("/api/v2/studentClasses/ids")
   public List<Integer> getAllIdsByClassId(@RequestBody Integer classId) {
-
     return service.getAllIdsByClassId(classId);
   }
 
@@ -139,22 +137,22 @@ public class StudentClassesController {
    * @param classId parametro de Clase.
    * @return lista de clase por ID.
    */
-  @GetMapping("/api/v1/studentClasses/ids/{classId}")
+  @GetMapping("/api/v2/studentClasses/ids/{classId}")
   public DtoClasses getClassAndAllStudentsByClassId(@PathVariable Integer classId) {
     listStudentIds = (List<Integer>) getAllIdsByClassId(classId);
 
     try {
       listStudents = studentsServiceClient.listAllStudentById(listStudentIds);
-
+      log.info("ID de clase: "+classId);
     } catch (Exception e) {
       e.printStackTrace();
     }
     clase = serviceClass.getOne(classId);
 
-    if (clase != null) {
-      log.info("clase no  es nulo");
+    if (clase == null) {
+      log.info("clase es nulo.");
     } else {
-      log.info("clase es nulo");
+      log.info("clase no es nulo.");
     }
     dtoClase.setClassesId(clase.getClassesId());
     dtoClase.setClassCode(clase.getClassCode());

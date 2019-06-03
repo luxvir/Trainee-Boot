@@ -1,7 +1,5 @@
 package com.ciber.controller;
 
-import static org.junit.Assert.*;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -20,7 +18,6 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.ciber.model.Subjects;
 import com.ciber.model.Teachers;
 import com.ciber.service.TeachersServiceImpl;
 
@@ -44,7 +41,7 @@ public class TeachersControllerTest {
   
     Mockito.when(teachersServiceImpl.findAll()).thenReturn(listTeacherMock);
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/teachers").accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v2/teachers").accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
@@ -60,7 +57,7 @@ public class TeachersControllerTest {
    
     Mockito.when(teachersServiceImpl.findAll()).thenReturn(listTeacherMock);
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/teachers").accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v2/teachers").accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
@@ -76,7 +73,7 @@ public class TeachersControllerTest {
   
     Mockito.when(teachersServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(teacherMock));
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/teachers/9").accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v2/teachers/9").accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
@@ -93,7 +90,7 @@ public class TeachersControllerTest {
   
     Mockito.when(teachersServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(teacherMock));
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/teachers/9").accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v2/teachers/9").accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
@@ -110,7 +107,7 @@ public class TeachersControllerTest {
     
     Mockito.when(teachersServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(teacherMock));
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v1/teachers/9")
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v2/teachers/9")
         .accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
@@ -124,7 +121,7 @@ public class TeachersControllerTest {
     
     Mockito.when(teachersServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(teacherMock));
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v1/teachers/1")
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v2/teachers/1")
         .accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();

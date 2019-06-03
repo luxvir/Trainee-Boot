@@ -15,15 +15,13 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 @ControllerAdvice
 @RestController
 public class ResponseExceptionHandler extends ResponseEntityExceptionHandler {
- /**
-  * 
-  */
+
   @ExceptionHandler(Exception.class)
   /**
-   * 
+   * INTERNAL_SERVER_ERROR.
    * @param ex
    * @param request
-   * @return HttpStatus
+   * @return HttpStatus INTERNAL_SERVER_ERROR.
    */
   public final ResponseEntity<Object> manejarTodasExcepciones(Exception ex, WebRequest request) {
     ExceptionResponse exceptionResponse = new ExceptionResponse(new Date(), ex.getMessage(),
@@ -34,10 +32,10 @@ public class ResponseExceptionHandler extends ResponseEntityExceptionHandler {
 
   @ExceptionHandler(ModeloNotFoundException.class)
   /**
-   * 
+   * NOT_FOUND.
    * @param ex
    * @param request
-   * @return HttpStatus
+   * @return HttpStatus NOT_FOUND.
    */
   public final ResponseEntity<Object> manejarModeloExcepciones(ModeloNotFoundException ex, WebRequest request) {
     ExceptionResponse exceptionResponse = new ExceptionResponse(new Date(), ex.getMessage(),
@@ -45,13 +43,13 @@ public class ResponseExceptionHandler extends ResponseEntityExceptionHandler {
     return new ResponseEntity<Object>(exceptionResponse, HttpStatus.NOT_FOUND);
 
   }
-
+  
   /**
-   * 
+   * BAD_REQUEST.
    */
   public final ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex,
       HttpHeaders headers, HttpStatus status, WebRequest request) {
-    ExceptionResponse exceptionResponse = new ExceptionResponse(new Date(), "Validacion fallida",
+    ExceptionResponse exceptionResponse = new ExceptionResponse(new Date(), "Validacion fallida.",
         ex.getBindingResult().toString());
     return new ResponseEntity<Object>(exceptionResponse, HttpStatus.BAD_REQUEST);
 

@@ -83,13 +83,21 @@ public class StudentsController {
     rpta = service.delete(stu.getStudentId());
     return new ResponseEntity<Integer>(rpta, HttpStatus.OK);
   }
-
+/**
+ * uncion que retorna un lista de students  por su Id.
+ * @param id parametro de entrada.
+ * @return lista de students.
+ */
   @ApiOperation(value = "Retorna informacion de students  por su Id")
   @GetMapping(value = "/api/v1/students/{id}")
   public ResponseEntity<Students> listById(@PathVariable("id") int id) {
     return new ResponseEntity<Students>(service.findById(id).get(), HttpStatus.OK);
   } 
-  
+  /**
+   * Funcion que retorna una lista de students dado una lista de Id.
+   * @param listStuId parametro de entrada.
+   * @return lista de students.
+   */
   @ApiOperation(value = "Retorna una lista de students dado una lista de Id")
   @PostMapping("/api/v1/students/ids")
   public ResponseEntity<List<Students>> listAllById(@RequestBody List<Integer> listStuId){

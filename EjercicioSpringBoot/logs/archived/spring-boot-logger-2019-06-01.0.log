@@ -1,0 +1,163 @@
+2019-05-31 12:29:22,814 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:29:40,791 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 20.86 seconds (JVM running for 22.525)
+2019-05-31 12:42:13,706 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:42:17,983 INFO org.springframework.boot.StartupInfoLogger [main] Started FamiliesControllerTest in 7.605 seconds (JVM running for 9.867)
+2019-05-31 12:43:46,091 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:43:50,320 INFO org.springframework.boot.StartupInfoLogger [main] Started FamiliesControllerTest in 7.869 seconds (JVM running for 10.078)
+2019-05-31 12:47:26,927 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:47:31,380 INFO org.springframework.boot.StartupInfoLogger [main] Started FamiliesControllerTest in 7.641 seconds (JVM running for 9.736)
+2019-05-31 12:50:20,913 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:50:25,159 INFO org.springframework.boot.StartupInfoLogger [main] Started FamiliesControllerTest in 7.453 seconds (JVM running for 9.813)
+2019-05-31 12:51:37,300 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:51:41,431 INFO org.springframework.boot.StartupInfoLogger [main] Started FamiliesControllerTest in 7.467 seconds (JVM running for 9.576)
+2019-05-31 14:40:15,562 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:41:28,763 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 83.009 seconds (JVM running for 89.688)
+2019-05-31 14:52:57,298 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:53:24,672 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 30.92 seconds (JVM running for 33.589)
+2019-05-31 14:57:30,425 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-05-31 15:00:22,611 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
+2019-05-31 15:11:44,232 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-05-31 15:14:39,854 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-05-31 15:15:11,530 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-05-31 15:15:12,476 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-05-31 15:15:12,658 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
+2019-05-31 15:15:12,794 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-05-31 15:15:13,146 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-2] Lista de estudiantes.
+2019-05-31 15:15:13,376 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-05-31 15:15:30,623 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-05-31 15:28:06,423 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
+2019-05-31 15:30:28,714 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-05-31 15:33:26,980 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-05-31 15:41:41,740 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
+2019-05-31 15:42:30,701 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-05-31 16:10:50,516 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
+2019-05-31 16:15:24,301 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-05-31 16:16:28,913 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-05-31 16:18:49,923 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-05-31 16:18:57,761 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-05-31 16:19:05,180 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-05-31 16:20:02,202 INFO com.ciber.service.FamiliesServiceImpl [http-nio-9090-exec-6] Lista familias.
+2019-05-31 16:20:24,590 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
+2019-05-31 16:20:40,039 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-05-31 16:20:50,277 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-2] Lista de estudiantes.
+2019-05-31 16:29:13,545 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-05-31 16:34:41,816 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-01 10:27:18,257 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 10:36:32,798 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 11:42:03,901 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 11:44:59,857 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 11:53:49,961 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 11:55:05,667 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 12:01:16,918 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 12:05:03,880 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 12:50:44,651 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 13:34:05,021 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 13:58:09,455 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 13:58:38,461 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 35.397 seconds (JVM running for 38.495)
+2019-06-01 17:46:02,820 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-06-01 17:46:02,821 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-06-01 17:46:02,821 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-01 17:46:02,821 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
+2019-06-01 17:46:02,821 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-06-01 17:46:02,820 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-01 17:46:02,820 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-01 17:46:02,869 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-6] Lista de estudiantes.
+2019-06-01 17:46:02,821 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-01 17:46:02,869 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-2] Lista de estudiantes.
+2019-06-01 17:46:09,122 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-13] Lista de estudiantes.
+2019-06-01 17:46:09,122 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-12] Lista de estudiantes.
+2019-06-01 17:46:09,122 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-11] Lista de estudiantes.
+2019-06-01 17:48:46,070 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-06-01 17:48:49,858 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-01 17:48:51,711 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-11] Lista de estudiantes.
+2019-06-01 17:48:54,773 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-01 17:48:56,745 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-06-01 17:48:58,555 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-6] Lista de estudiantes.
+2019-06-01 17:48:59,736 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-01 17:49:03,086 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-01 17:49:03,933 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-06-01 18:14:23,941 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-06-01 18:14:24,029 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-01 18:14:29,642 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-11] Lista de estudiantes.
+2019-06-01 18:14:32,113 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-06-01 18:14:35,772 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-6] Lista de estudiantes.
+2019-06-01 18:14:38,326 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-01 18:14:40,314 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-01 18:34:41,402 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-12] Lista de estudiantes.
+2019-06-01 18:39:24,145 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-01 18:39:31,589 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-11] Lista de estudiantes.
+2019-06-01 18:39:35,657 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-06-01 18:39:38,355 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-6] Lista de estudiantes.
+2019-06-01 18:39:41,346 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-01 18:40:36,643 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-06-01 18:47:58,161 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-06-01 18:48:25,217 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-01 18:48:27,989 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-11] Lista de estudiantes.
+2019-06-01 18:48:28,387 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-06-01 18:48:35,704 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-01 18:48:36,101 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-01 18:48:36,520 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-06-01 18:48:36,856 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-12] Lista de estudiantes.
+2019-06-01 18:48:44,046 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-01 18:50:06,097 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-11] Lista de estudiantes.
+2019-06-01 18:50:16,791 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-6] Lista de estudiantes.
+2019-06-01 18:50:19,993 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-01 18:50:20,342 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-01 18:50:21,669 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-06-01 18:50:22,052 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-12] Lista de estudiantes.
+2019-06-01 18:50:22,809 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-06-01 18:50:23,148 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-01 18:50:27,153 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-01 18:50:27,885 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-11] Lista de estudiantes.
+2019-06-01 18:50:28,134 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-06-01 18:50:29,123 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-6] Lista de estudiantes.
+2019-06-01 18:50:29,610 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-01 18:50:30,742 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-01 18:50:31,242 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-06-01 18:50:31,552 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-12] Lista de estudiantes.
+2019-06-01 18:50:32,113 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-06-01 18:50:32,653 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-01 18:50:36,432 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-01 18:50:38,423 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-11] Lista de estudiantes.
+2019-06-01 18:50:40,078 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-06-01 18:50:40,494 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-6] Lista de estudiantes.
+2019-06-01 18:50:40,791 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-01 18:50:41,185 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-01 18:50:41,628 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-06-01 18:50:42,173 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-12] Lista de estudiantes.
+2019-06-01 18:50:42,527 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-06-01 18:50:42,814 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-01 18:50:43,124 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-01 18:50:43,500 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-11] Lista de estudiantes.
+2019-06-01 18:50:43,975 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-06-01 18:50:44,299 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-6] Lista de estudiantes.
+2019-06-01 18:50:44,578 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-01 18:50:45,178 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-01 18:50:45,470 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-06-01 18:50:46,092 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-12] Lista de estudiantes.
+2019-06-01 18:50:47,008 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-06-01 18:50:47,462 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-01 18:50:47,814 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-01 18:50:48,424 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-11] Lista de estudiantes.
+2019-06-01 18:50:48,765 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-06-01 18:50:50,913 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-6] Lista de estudiantes.
+2019-06-01 18:50:51,424 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-01 18:50:51,974 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-01 18:50:52,416 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-06-01 18:50:53,243 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-12] Lista de estudiantes.
+2019-06-01 18:50:53,726 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-06-01 18:50:54,259 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-01 18:50:54,551 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-01 18:50:54,803 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-11] Lista de estudiantes.
+2019-06-01 19:01:29,812 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 19:02:35,316 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 78.767 seconds (JVM running for 81.755)
+2019-06-01 19:14:37,308 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-06-01 19:25:03,686 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 19:25:37,852 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 37.397 seconds (JVM running for 41.048)
+2019-06-01 19:31:25,828 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-01 19:31:26,586 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-01 23:43:32,132 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 23:45:21,067 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 125.144 seconds (JVM running for 135.209)
+2019-06-01 23:46:37,423 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-2] Lista de estudiantes.
+2019-06-01 23:46:45,539 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-01 23:46:48,143 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.

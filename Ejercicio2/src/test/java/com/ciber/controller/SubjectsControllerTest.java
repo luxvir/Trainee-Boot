@@ -1,7 +1,5 @@
 package com.ciber.controller;
 
-import static org.junit.Assert.*;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -42,7 +40,7 @@ public class SubjectsControllerTest {
 
     Mockito.when(subjectsServiceImpl.findAll()).thenReturn(listSubjectsMock);
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/subjects").accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v2/subjects").accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
@@ -59,7 +57,7 @@ public class SubjectsControllerTest {
 
     Mockito.when(subjectsServiceImpl.findAll()).thenReturn(listSubjectsMock);
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/subjects").accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v2/subjects").accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
@@ -75,7 +73,7 @@ public class SubjectsControllerTest {
 
     Mockito.when(subjectsServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(subjectMock));
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/subjects/9").accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v2/subjects/9").accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
@@ -91,7 +89,7 @@ public class SubjectsControllerTest {
 
     Mockito.when(subjectsServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(subjectMock));
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/subjects/9").accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v2/subjects/9").accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
@@ -106,7 +104,7 @@ public class SubjectsControllerTest {
     Subjects subjectMock = new Subjects(9, "Matematica");
     Mockito.when(subjectsServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(subjectMock));
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v1/subjects/9")
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v2/subjects/9")
         .accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
@@ -119,7 +117,7 @@ public class SubjectsControllerTest {
     Subjects subjectMock = new Subjects(9, "Matematica");
     Mockito.when(subjectsServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(subjectMock));
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v1/subjects/1")
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v2/subjects/1")
         .accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();

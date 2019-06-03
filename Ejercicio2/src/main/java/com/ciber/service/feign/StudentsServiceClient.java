@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 
-@FeignClient(name = "micro-server", url = "http://localhost:9090")
+@FeignClient(name = "micro-service-B") //, url = "http://localhost:9090"
 public interface StudentsServiceClient {
 
   /**
@@ -16,7 +16,7 @@ public interface StudentsServiceClient {
    * @return lista de estudiantes.
    */
   @RequestMapping(value = "/api/v1/students",method = RequestMethod.GET)
-  List<Students> getStudents();
+  List<Object> getStudents();
 
   /**
    * Funcion que obtine la una lista de estudiantes de una lista de enteros

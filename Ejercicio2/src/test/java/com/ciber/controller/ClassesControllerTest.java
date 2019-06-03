@@ -1,7 +1,5 @@
 package com.ciber.controller;
 
-import static org.junit.Assert.*;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -21,8 +19,6 @@ import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import com.ciber.model.Classes;
-import com.ciber.model.Subjects;
-import com.ciber.model.Teachers;
 import com.ciber.service.ClassesServiceImpl;
 
 @RunWith(SpringRunner.class)
@@ -43,7 +39,7 @@ public class ClassesControllerTest {
 
     Mockito.when(classesServiceImpl.findAll()).thenReturn(listClassMock);
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/classes").accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v2/classes").accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
@@ -59,7 +55,7 @@ public class ClassesControllerTest {
 
     Mockito.when(classesServiceImpl.findAll()).thenReturn(listClassMock);
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/classes").accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v2/classes").accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
@@ -75,7 +71,7 @@ public class ClassesControllerTest {
 
     Mockito.when(classesServiceImpl.getOne(Mockito.anyInt())).thenReturn((classMock));
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/classes/9").accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v2/classes/9").accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
@@ -91,7 +87,7 @@ public class ClassesControllerTest {
 
     Mockito.when(classesServiceImpl.getOne(Mockito.anyInt())).thenReturn((classMock));
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/classes/9").accept(MediaType.APPLICATION_JSON);
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v2/classes/9").accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
 
@@ -107,7 +103,7 @@ public class ClassesControllerTest {
 
     Mockito.when(classesServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(classMock));
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v1/teachers/9")
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v2/teachers/9")
         .accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();
@@ -120,7 +116,7 @@ public class ClassesControllerTest {
     Classes classMock = new Classes(9, "MAT", "Mateatica");
     Mockito.when(classesServiceImpl.findByID(Mockito.anyInt())).thenReturn(Optional.of(classMock));
 
-    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v1/teachers/1")
+    RequestBuilder requestBuilder = MockMvcRequestBuilders.delete("/api/v2/teachers/1")
         .accept(MediaType.APPLICATION_JSON);
 
     MvcResult result = mockMvc.perform(requestBuilder).andReturn();

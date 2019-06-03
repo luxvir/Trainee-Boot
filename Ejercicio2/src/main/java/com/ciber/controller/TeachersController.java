@@ -37,7 +37,7 @@ public class TeachersController {
    * @return list of Teachers.
    */
   @ApiOperation(value = "Retorna lista de Teachers")
-  @GetMapping(value = "/api/v1/teachers")
+  @GetMapping(value = "/api/v2/teachers")
   public ResponseEntity<List<Teachers>> listTeachers() {
     return new ResponseEntity<List<Teachers>>(service.findAll(), HttpStatus.OK);
   }
@@ -49,10 +49,10 @@ public class TeachersController {
    * @return object Teachers.
    */
   @ApiOperation(value = "Crea a una teachers")
-  @PostMapping(value = "/api/v1/teachers", consumes = "application/json", 
+  @PostMapping(value = "/api/v2/teachers", consumes = "application/json", 
         produces = "application/json")
   public ResponseEntity<Teachers> createTeachers(@RequestBody Teachers teach) {
-    System.out.println("entro a implement   implements");
+    
     return new ResponseEntity<Teachers>(service.create(teach), HttpStatus.CREATED);
   }
 
@@ -63,7 +63,7 @@ public class TeachersController {
    * @return object Teachers.
    */
   @ApiOperation(value = "Actualiza a una Teachers")
-  @PutMapping(value = "/api/v1/teachers", consumes = "application/json", 
+  @PutMapping(value = "/api/v2/teachers", consumes = "application/json", 
         produces = "application/json")
   public ResponseEntity<Teachers> updateTeachers(@RequestBody Teachers teach) {
     String mensaje = "";
@@ -72,7 +72,7 @@ public class TeachersController {
     if (tea.isPresent()) {
       return new ResponseEntity<Teachers>(service.update(teach), HttpStatus.OK);
     } else {
-      mensaje = "error " + teach.getTeacherId();
+      mensaje = "Error en el ID : " + teach.getTeacherId();
       throw new ModeloNotFoundException(mensaje);
     }
   }
@@ -85,7 +85,7 @@ public class TeachersController {
    * @return object teachers delete.
    */
   @ApiOperation(value = "Elimina datos de una teachers")
-  @DeleteMapping(value = "/api/v1/teachers", consumes = "application/json", 
+  @DeleteMapping(value = "/api/v2/teachers", consumes = "application/json", 
       produces = "application/json")
   public ResponseEntity<Integer> deleteTeachers(@RequestBody Teachers teach) {
     int rpta = 0;
@@ -94,11 +94,11 @@ public class TeachersController {
     Optional<Teachers> fa = service.findByID(teach.getTeacherId());
 
     if (fa.isPresent()) {
-      log.info("id " + teach.getTeacherId());
+      log.info("ID correcto : " + teach.getTeacherId());
       rpta = service.delete(teach.getTeacherId());
       return new ResponseEntity<Integer>(rpta, HttpStatus.OK);
     } else {
-      mensaje = "error ID " + teach.getTeacherId();
+      mensaje = "Error en el ID : " + teach.getTeacherId();
       throw new ModeloNotFoundException(mensaje);
     }
   }
@@ -110,8 +110,8 @@ public class TeachersController {
    * @param id parametro de filtro.
    * @return id.
    */
-  @ApiOperation(value = "Retorna inforacion de teachers  por su Id")
-  @GetMapping(value = "/api/v1/teachers/{id}")
+  @ApiOperation(value = "Retorna informacion de teachers  por su Id")
+  @GetMapping(value = "/api/v2/teachers/{id}")
   public ResponseEntity<Object> listById(@PathVariable("id") Integer id) {
 
     String mensaje = "";
@@ -120,7 +120,7 @@ public class TeachersController {
     if (teach.isPresent()) {
       return new ResponseEntity<Object>(teach, HttpStatus.OK);
     } else {
-      mensaje = "error  " + id;
+      mensaje = "Error en el ID : " + id;
       throw new ModeloNotFoundException(mensaje);
     }
   }
@@ -131,7 +131,7 @@ public class TeachersController {
    * 
    */
   @ApiOperation(value = "Eliminar Teachers")
-  @DeleteMapping(value = "/api/v1/teachers/{id}")
+  @DeleteMapping(value = "/api/v2/teachers/{id}")
   public void delete(@PathVariable("id") int id) {
     Optional<Teachers> s = service.findByID(id);
     String mensaje = "";
@@ -139,7 +139,7 @@ public class TeachersController {
       log.warn("Un Teachers fue Eliminado");
       service.softdelete(id);
     } else {
-      mensaje = "error en el ID " + id;
+      mensaje = "Error en el ID : " + id;
       throw new ModeloNotFoundException(mensaje);
     }
   }

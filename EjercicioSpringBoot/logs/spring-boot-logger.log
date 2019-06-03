@@ -1,44 +1,28 @@
-2019-05-31 12:29:22,814 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-31 12:29:40,791 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 20.86 seconds (JVM running for 22.525)
-2019-05-31 12:42:13,706 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-31 12:42:17,983 INFO org.springframework.boot.StartupInfoLogger [main] Started FamiliesControllerTest in 7.605 seconds (JVM running for 9.867)
-2019-05-31 12:43:46,091 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-31 12:43:50,320 INFO org.springframework.boot.StartupInfoLogger [main] Started FamiliesControllerTest in 7.869 seconds (JVM running for 10.078)
-2019-05-31 12:47:26,927 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-31 12:47:31,380 INFO org.springframework.boot.StartupInfoLogger [main] Started FamiliesControllerTest in 7.641 seconds (JVM running for 9.736)
-2019-05-31 12:50:20,913 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-31 12:50:25,159 INFO org.springframework.boot.StartupInfoLogger [main] Started FamiliesControllerTest in 7.453 seconds (JVM running for 9.813)
-2019-05-31 12:51:37,300 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-31 12:51:41,431 INFO org.springframework.boot.StartupInfoLogger [main] Started FamiliesControllerTest in 7.467 seconds (JVM running for 9.576)
-2019-05-31 14:40:15,562 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-31 14:41:28,763 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 83.009 seconds (JVM running for 89.688)
-2019-05-31 14:52:57,298 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-31 14:53:24,672 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 30.92 seconds (JVM running for 33.589)
-2019-05-31 14:57:30,425 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
-2019-05-31 15:00:22,611 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
-2019-05-31 15:11:44,232 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
-2019-05-31 15:14:39,854 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
-2019-05-31 15:15:11,530 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
-2019-05-31 15:15:12,476 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
-2019-05-31 15:15:12,658 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
-2019-05-31 15:15:12,794 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
-2019-05-31 15:15:13,146 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-2] Lista de estudiantes.
-2019-05-31 15:15:13,376 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
-2019-05-31 15:15:30,623 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
-2019-05-31 15:28:06,423 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
-2019-05-31 15:30:28,714 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
-2019-05-31 15:33:26,980 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
-2019-05-31 15:41:41,740 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
-2019-05-31 15:42:30,701 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
-2019-05-31 16:10:50,516 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
-2019-05-31 16:15:24,301 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
-2019-05-31 16:16:28,913 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
-2019-05-31 16:18:49,923 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
-2019-05-31 16:18:57,761 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
-2019-05-31 16:19:05,180 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
-2019-05-31 16:20:02,202 INFO com.ciber.service.FamiliesServiceImpl [http-nio-9090-exec-6] Lista familias.
-2019-05-31 16:20:24,590 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
-2019-05-31 16:20:40,039 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
-2019-05-31 16:20:50,277 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-2] Lista de estudiantes.
-2019-05-31 16:29:13,545 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
-2019-05-31 16:34:41,816 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-02 00:01:17,060 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-6] Lista de estudiantes.
+2019-06-02 00:01:29,919 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-06-02 00:01:33,075 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-02 00:01:33,525 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-02 00:01:34,807 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
+2019-06-02 00:01:35,100 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-2] Lista de estudiantes.
+2019-06-02 00:03:04,724 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-06-02 00:34:21,904 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-02 00:34:31,549 INFO org.springframework.boot.StartupInfoLogger [main] Started FamiliesControllerTest in 17.454 seconds (JVM running for 42.037)
+2019-06-02 01:09:25,153 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-6] Lista de estudiantes.
+2019-06-02 01:11:59,743 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-02 01:12:04,643 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-02 01:12:07,490 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-8] Lista de estudiantes.
+2019-06-02 01:14:28,110 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-02 01:14:32,320 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-02 01:24:49,336 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-02 01:24:55,171 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-3] Lista de estudiantes.
+2019-06-02 01:24:57,814 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-4] Lista de estudiantes.
+2019-06-02 01:25:01,940 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-5] Lista de estudiantes.
+2019-06-02 01:37:12,820 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-7] Lista de estudiantes.
+2019-06-02 01:37:17,152 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-02 21:04:22,546 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-02 21:05:26,908 INFO org.springframework.boot.StartupInfoLogger [main] Started EjercicioSpringBootApplication in 69.212 seconds (JVM running for 72.96)
+2019-06-02 21:35:13,151 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-2] Lista de estudiantes.
+2019-06-02 21:35:13,182 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-1] Lista de estudiantes.
+2019-06-02 22:11:25,109 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-9] Lista de estudiantes.
+2019-06-02 22:11:26,868 INFO com.ciber.service.StudentsServiceImpl [http-nio-9090-exec-10] Lista de estudiantes.
+2019-06-02 22:45:58,543 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default

@@ -1,0 +1,328 @@
+2019-05-31 10:30:05,658 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 10:30:10,417 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 8.56 seconds (JVM running for 11.936)
+2019-05-31 10:32:45,993 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 10:32:53,114 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 10.162 seconds (JVM running for 12.741)
+2019-05-31 10:35:21,672 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 10:35:26,476 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 8.145 seconds (JVM running for 10.543)
+2019-05-31 10:36:01,802 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 10:36:06,766 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 8.349 seconds (JVM running for 11.027)
+2019-05-31 10:41:03,735 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 10:41:08,503 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 8.075 seconds (JVM running for 10.422)
+2019-05-31 10:42:30,299 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 10:42:35,293 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 8.315 seconds (JVM running for 10.651)
+2019-05-31 10:46:36,447 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 10:46:41,486 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 8.62 seconds (JVM running for 10.832)
+2019-05-31 11:02:34,813 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:02:39,733 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 8.565 seconds (JVM running for 11.013)
+2019-05-31 11:03:04,178 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:03:08,981 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 7.858 seconds (JVM running for 10.44)
+2019-05-31 11:04:25,725 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:04:30,668 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 7.877 seconds (JVM running for 10.303)
+2019-05-31 11:10:34,060 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:10:39,105 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 8.562 seconds (JVM running for 10.887)
+2019-05-31 11:11:02,576 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:11:07,439 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 8.228 seconds (JVM running for 10.419)
+2019-05-31 11:11:07,658 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 11:12:45,020 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:12:49,898 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 8.054 seconds (JVM running for 10.665)
+2019-05-31 11:12:50,102 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 11:30:40,178 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:32:18,486 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:33:40,514 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:33:45,393 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 8.438 seconds (JVM running for 10.642)
+2019-05-31 11:34:42,079 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:34:46,981 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 8.364 seconds (JVM running for 10.653)
+2019-05-31 11:36:21,282 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:36:26,236 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 7.948 seconds (JVM running for 10.416)
+2019-05-31 11:41:07,076 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:41:11,933 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 8.226 seconds (JVM running for 10.621)
+2019-05-31 11:43:08,776 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:43:13,848 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 8.849 seconds (JVM running for 11.116)
+2019-05-31 11:43:25,296 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:43:30,088 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 8.168 seconds (JVM running for 10.54)
+2019-05-31 11:45:41,518 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:45:46,856 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 8.61 seconds (JVM running for 11.015)
+2019-05-31 11:46:14,487 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:46:19,575 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 8.471 seconds (JVM running for 10.761)
+2019-05-31 11:47:17,527 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:47:22,612 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 8.442 seconds (JVM running for 10.903)
+2019-05-31 11:48:34,681 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:48:39,466 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 8.025 seconds (JVM running for 10.502)
+2019-05-31 11:48:39,685 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 11:49:34,899 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:49:39,966 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 8.355 seconds (JVM running for 10.559)
+2019-05-31 11:49:40,169 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 12:00:52,482 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:00:57,355 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 7.783 seconds (JVM running for 10.165)
+2019-05-31 12:01:28,329 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:01:33,842 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 8.921 seconds (JVM running for 11.409)
+2019-05-31 12:02:18,273 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:02:23,271 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 8.53 seconds (JVM running for 10.866)
+2019-05-31 12:10:40,075 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:10:44,939 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 8.408 seconds (JVM running for 11.115)
+2019-05-31 12:12:20,037 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:12:25,105 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 8.342 seconds (JVM running for 10.638)
+2019-05-31 12:12:40,567 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:12:45,719 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 8.57 seconds (JVM running for 11.27)
+2019-05-31 12:14:44,142 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:14:49,200 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 9.035 seconds (JVM running for 11.184)
+2019-05-31 12:17:57,943 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:18:03,024 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 8.944 seconds (JVM running for 11.252)
+2019-05-31 12:19:57,621 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:20:02,548 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 8.028 seconds (JVM running for 10.412)
+2019-05-31 12:21:57,103 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:22:02,044 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 8.425 seconds (JVM running for 10.641)
+2019-05-31 12:23:04,711 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:23:09,533 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 8.194 seconds (JVM running for 10.608)
+2019-05-31 12:23:45,436 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:23:50,401 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 8.325 seconds (JVM running for 10.581)
+2019-05-31 12:24:34,626 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:24:39,567 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 7.933 seconds (JVM running for 10.277)
+2019-05-31 12:29:50,174 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:30:06,937 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 19.531 seconds (JVM running for 21.182)
+2019-05-31 12:33:42,001 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-2] clase no  es nulo
+2019-05-31 12:44:20,695 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-8] clase no  es nulo
+2019-05-31 12:44:43,122 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-9] clase no  es nulo
+2019-05-31 12:45:08,157 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-10] clase no  es nulo
+2019-05-31 12:45:57,603 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-1] clase no  es nulo
+2019-05-31 12:58:02,315 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:58:10,341 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 12.035 seconds (JVM running for 14.513)
+2019-05-31 12:58:13,320 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:58:16,078 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 4.868 seconds (JVM running for 20.254)
+2019-05-31 12:58:16,140 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 12:58:16,172 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 12:58:18,085 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:58:20,158 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 3.939 seconds (JVM running for 24.337)
+2019-05-31 12:58:20,220 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 12:58:20,236 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 12:58:22,179 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:59:03,563 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2ApplicationTests in 43.28 seconds (JVM running for 67.739)
+2019-05-31 13:01:10,711 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:01:19,585 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 12.703 seconds (JVM running for 17.829)
+2019-05-31 13:01:20,429 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 13:01:20,480 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 13:01:48,945 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:01:54,430 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 9.001 seconds (JVM running for 11.631)
+2019-05-31 13:01:54,649 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 13:03:09,978 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:03:15,334 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 9.286 seconds (JVM running for 12.31)
+2019-05-31 13:03:18,420 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:03:20,568 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 4.536 seconds (JVM running for 17.546)
+2019-05-31 13:03:20,646 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 13:03:20,678 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 13:03:22,665 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:03:24,980 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 4.256 seconds (JVM running for 21.962)
+2019-05-31 13:03:25,045 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 13:03:25,061 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 13:03:26,946 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:03:49,621 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2ApplicationTests in 24.497 seconds (JVM running for 46.601)
+2019-05-31 13:08:30,105 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:08:43,793 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 21.015 seconds (JVM running for 26.045)
+2019-05-31 13:08:49,745 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:08:52,512 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 4.874 seconds (JVM running for 34.762)
+2019-05-31 13:08:52,628 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 13:08:52,659 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 13:08:54,574 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:08:56,855 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 4.133 seconds (JVM running for 39.116)
+2019-05-31 13:08:56,902 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 13:08:56,933 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 13:08:58,871 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:09:59,795 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2ApplicationTests in 62.76 seconds (JVM running for 102.045)
+2019-05-31 13:44:28,646 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:44:38,523 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 14.761 seconds (JVM running for 19.567)
+2019-05-31 13:44:41,380 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:44:43,531 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 4.143 seconds (JVM running for 24.576)
+2019-05-31 13:44:43,588 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 13:44:43,647 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 13:44:45,660 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:44:47,827 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 4.11 seconds (JVM running for 28.871)
+2019-05-31 13:44:47,865 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 13:44:47,880 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 13:44:50,405 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:45:20,336 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2ApplicationTests in 32.395 seconds (JVM running for 61.38)
+2019-05-31 13:47:35,089 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:47:43,206 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 13.679 seconds (JVM running for 18.128)
+2019-05-31 13:47:46,218 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:47:48,645 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 4.55 seconds (JVM running for 23.568)
+2019-05-31 13:47:48,742 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 13:47:48,785 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 13:47:50,825 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:47:53,239 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 4.406 seconds (JVM running for 28.162)
+2019-05-31 13:47:53,292 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 13:47:53,303 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 13:47:55,490 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:48:34,290 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2ApplicationTests in 40.919 seconds (JVM running for 69.212)
+2019-05-31 14:05:31,540 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:05:42,898 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 17.635 seconds (JVM running for 23.431)
+2019-05-31 14:05:46,258 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:05:48,857 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 4.828 seconds (JVM running for 29.39)
+2019-05-31 14:05:48,936 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 14:05:49,005 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 14:05:51,254 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:05:53,692 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 4.607 seconds (JVM running for 34.225)
+2019-05-31 14:05:53,748 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 14:05:53,770 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 14:05:56,320 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:06:30,405 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2ApplicationTests in 36.576 seconds (JVM running for 70.938)
+2019-05-31 14:08:13,045 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:08:20,606 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 13.187 seconds (JVM running for 17.993)
+2019-05-31 14:08:23,766 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:08:26,620 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 5.031 seconds (JVM running for 24.007)
+2019-05-31 14:08:26,709 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 14:08:26,740 WARN com.ciber.controller.SubjectsController [main] Un Subject Fue Eliminado
+2019-05-31 14:08:29,729 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:08:32,125 INFO org.springframework.boot.StartupInfoLogger [main] Started TeachersControllerTest in 5.318 seconds (JVM running for 29.512)
+2019-05-31 14:08:32,193 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 14:08:32,209 WARN com.ciber.controller.TeachersController [main] Un Teachers fue Eliminado
+2019-05-31 14:08:34,855 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:09:02,756 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2ApplicationTests in 30.403 seconds (JVM running for 60.139)
+2019-05-31 14:42:43,520 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:46:10,634 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 213.113 seconds (JVM running for 218.055)
+2019-05-31 14:53:46,459 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:53:47,023 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:55:22,452 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 100.273 seconds (JVM running for 102.853)
+2019-05-31 14:57:11,050 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-6] clase no  es nulo
+2019-05-31 15:07:19,847 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:07:44,135 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 28.513 seconds (JVM running for 34.497)
+2019-05-31 15:11:13,128 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-7] clase no  es nulo
+2019-05-31 15:11:21,588 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-6] clase no  es nulo
+2019-05-31 15:11:58,796 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-1] clase no  es nulo
+2019-05-31 15:13:01,357 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:13:20,876 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 22.813 seconds (JVM running for 24.931)
+2019-05-31 15:14:36,195 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-6] clase no  es nulo
+2019-05-31 15:15:01,788 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-1] clase no  es nulo
+2019-05-31 15:16:50,345 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-6] clase no  es nulo
+2019-05-31 15:27:10,075 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:27:48,650 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 43.384 seconds (JVM running for 49.174)
+2019-05-31 15:28:04,328 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-1] clase no  es nulo
+2019-05-31 15:32:08,151 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:32:28,742 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 24.204 seconds (JVM running for 26.871)
+2019-05-31 15:43:30,897 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-10] clase no  es nulo
+2019-05-31 15:52:06,962 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:52:38,208 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 35.945 seconds (JVM running for 42.197)
+2019-05-31 15:53:27,899 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:53:48,702 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 24.583 seconds (JVM running for 26.975)
+2019-05-31 15:56:30,684 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:56:50,999 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 23.918 seconds (JVM running for 26.349)
+2019-05-31 16:00:39,125 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 16:00:58,615 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 23.187 seconds (JVM running for 25.442)
+2019-05-31 16:03:49,602 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 16:04:08,744 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 22.837 seconds (JVM running for 26.007)
+2019-05-31 16:06:04,401 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 16:06:24,038 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 23.126 seconds (JVM running for 25.658)
+2019-05-31 16:07:46,010 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 16:08:06,600 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 24.756 seconds (JVM running for 26.987)
+2019-05-31 16:14:48,898 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 16:15:08,412 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 23.07 seconds (JVM running for 25.345)
+2019-05-31 16:17:36,991 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-8] clase no  es nulo
+2019-05-31 16:17:47,044 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-9] clase no  es nulo
+2019-05-31 16:25:10,469 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-9] clase no  es nulo
+2019-05-31 16:28:08,005 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-3] clase no  es nulo
+2019-05-31 16:32:46,724 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 16:33:06,282 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 23.051 seconds (JVM running for 25.671)
+2019-05-31 16:35:00,831 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-3] clase no  es nulo
+2019-05-31 16:35:01,199 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-8] clase no  es nulo
+2019-05-31 16:35:01,600 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-5] clase no  es nulo
+2019-05-31 16:35:01,683 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-3] clase no  es nulo
+2019-05-31 16:35:01,857 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-8] clase no  es nulo
+2019-05-31 16:35:02,067 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-5] clase no  es nulo
+2019-05-31 16:35:02,409 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-3] clase no  es nulo
+2019-05-31 16:35:02,625 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-8] clase no  es nulo
+2019-05-31 16:35:02,777 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-5] clase no  es nulo
+2019-05-31 16:35:02,973 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-3] clase no  es nulo
+2019-05-31 16:35:03,125 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-8] clase no  es nulo
+2019-05-31 16:35:03,344 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-5] clase no  es nulo
+2019-05-31 16:35:03,633 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-3] clase no  es nulo
+2019-05-31 16:35:03,807 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-8] clase no  es nulo
+2019-05-31 16:35:04,183 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-3] clase no  es nulo
+2019-05-31 16:35:04,330 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-8] clase no  es nulo
+2019-05-31 16:35:29,274 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-4] clase no  es nulo
+2019-05-31 16:35:29,855 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-9] clase no  es nulo
+2019-05-31 16:35:30,005 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-1] clase no  es nulo
+2019-05-31 16:35:30,160 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-4] clase no  es nulo
+2019-05-31 16:35:30,470 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-9] clase no  es nulo
+2019-05-31 16:35:32,030 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-1] clase no  es nulo
+2019-05-31 16:35:34,835 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-6] clase no  es nulo
+2019-05-31 16:37:01,540 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 16:37:21,460 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 23.575 seconds (JVM running for 26.024)
+2019-05-31 16:42:14,042 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-1] clase no  es nulo
+2019-05-31 16:42:14,152 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-10] clase no  es nulo
+2019-05-31 16:42:14,330 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-3] clase no  es nulo
+2019-05-31 16:42:14,497 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-2] clase no  es nulo
+2019-05-31 16:42:14,646 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-4] clase no  es nulo
+2019-05-31 16:42:14,785 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-5] clase no  es nulo
+2019-05-31 16:42:14,922 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-2] clase no  es nulo
+2019-05-31 16:42:15,072 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-4] clase no  es nulo
+2019-05-31 16:42:15,230 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-5] clase no  es nulo
+2019-05-31 16:42:15,426 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-2] clase no  es nulo
+2019-05-31 16:42:15,555 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-4] clase no  es nulo
+2019-05-31 16:42:15,706 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-5] clase no  es nulo
+2019-05-31 16:42:15,873 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-2] clase no  es nulo
+2019-05-31 16:42:17,850 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-4] clase no  es nulo
+2019-05-31 16:42:18,060 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-5] clase no  es nulo
+2019-05-31 16:42:18,192 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-2] clase no  es nulo
+2019-05-31 16:42:18,335 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-4] clase no  es nulo
+2019-05-31 16:42:18,481 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-5] clase no  es nulo
+2019-05-31 16:42:18,608 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-2] clase no  es nulo
+2019-05-31 16:42:18,762 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-4] clase no  es nulo
+2019-05-31 16:42:18,894 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-5] clase no  es nulo
+2019-05-31 16:42:19,060 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-2] clase no  es nulo
+2019-05-31 16:42:19,243 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-4] clase no  es nulo
+2019-05-31 16:42:19,376 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-2] clase no  es nulo
+2019-05-31 16:42:19,533 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-4] clase no  es nulo
+2019-05-31 16:42:19,699 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-1] clase no  es nulo
+2019-05-31 16:42:20,106 INFO com.ciber.controller.StudentClassesController [http-nio-9095-exec-2] clase no  es nulo
+2019-05-31 16:47:40,107 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 16:48:32,703 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 58.274 seconds (JVM running for 68.36)
+2019-05-31 16:55:38,567 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 16:55:58,736 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 24.063 seconds (JVM running for 28.148)
+2019-05-31 16:56:40,252 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 16:57:00,538 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 24.303 seconds (JVM running for 26.962)
+2019-05-31 16:59:13,701 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 16:59:33,835 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 23.91 seconds (JVM running for 26.728)
+2019-05-31 17:04:59,198 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 17:06:00,391 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 17:06:41,919 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 17:07:09,531 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 30.889 seconds (JVM running for 33.282)
+2019-05-31 17:07:55,081 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 17:08:14,729 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 22.971 seconds (JVM running for 25.047)
+2019-05-31 17:15:43,696 WARN com.ciber.controller.SubjectsController [http-nio-9095-exec-10] Un Subject Fue Eliminado
+2019-05-31 17:16:55,186 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 17:21:58,525 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 17:22:08,207 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 13.913 seconds (JVM running for 17.994)
+2019-05-31 17:28:42,253 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 17:28:52,816 INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectsControllerTest in 14.928 seconds (JVM running for 18.034)
+2019-05-31 17:30:36,557 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 17:30:42,877 INFO org.springframework.boot.StartupInfoLogger [main] Started ClassesControllerTest in 10.16 seconds (JVM running for 13.544)
+2019-06-01 12:40:57,763 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 13:59:16,220 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 14:00:01,768 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 50.574 seconds (JVM running for 64.648)
+2019-06-01 16:38:14,685 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 16:39:41,785 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 97.673 seconds (JVM running for 100.999)
+2019-06-01 16:41:30,256 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 16:43:37,739 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 137.19 seconds (JVM running for 139.281)
+2019-06-01 16:53:21,589 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 16:54:17,308 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 59.445 seconds (JVM running for 62.237)
+2019-06-01 16:56:09,852 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 16:56:39,200 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 32.692 seconds (JVM running for 34.826)
+2019-06-01 17:01:46,477 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 17:02:28,482 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 45.471 seconds (JVM running for 47.495)
+2019-06-01 17:03:16,164 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 17:03:33,980 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 21.006 seconds (JVM running for 24.347)
+2019-06-01 17:04:31,490 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 17:04:48,805 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 20.148 seconds (JVM running for 22.087)
+2019-06-01 17:12:13,809 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 17:12:37,585 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 27.469 seconds (JVM running for 29.286)
+2019-06-01 17:22:09,228 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 17:22:47,819 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 42.096 seconds (JVM running for 44.261)
+2019-06-01 17:29:09,842 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 17:29:37,458 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 30.831 seconds (JVM running for 33.464)
+2019-06-01 17:42:33,510 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 17:43:04,719 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 34.667 seconds (JVM running for 36.575)
+2019-06-01 17:47:10,368 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 17:48:31,618 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 84.429 seconds (JVM running for 87.008)
+2019-06-01 19:26:57,100 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 19:27:43,784 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 51.94 seconds (JVM running for 66.5)
+2019-06-01 23:31:16,599 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-06-01 23:32:14,786 INFO org.springframework.boot.StartupInfoLogger [main] Started Ejercicio2Application in 90.5 seconds (JVM running for 101.275)
+2019-06-01 23:46:35,355 ERROR com.ciber.controller.client.StudentsClientController [HystrixTimer-1] Ingreso al conrol de hystrix, time out

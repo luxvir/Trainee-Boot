@@ -1,7 +1,7 @@
 server:
    port: 9898
 
-# servicio b
+# servicio B
 #http://localhost:9898/api/v1/students
 zuul:
   routes:
@@ -9,13 +9,12 @@ zuul:
       path: /api/v1/**
       url: http://localhost:9090/
       strip-prefix: false
-#servicio a
-#http://localhost:9898/api/versions
+# servicio A
+#http://localhost:9898/api/v2/students
     feign:
-      path: /api/**
+      path: /api/v2/**
       url: http://localhost:9095/
       strip-prefix: false
-#http://localhost:8899/
 
   ssl-hostname-validation-enabled: false
  

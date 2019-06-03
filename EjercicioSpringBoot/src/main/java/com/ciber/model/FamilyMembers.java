@@ -1,5 +1,7 @@
 package com.ciber.model;
 
+
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,7 +10,10 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 /**
  * La clase FamilyMembers es un modelo que define un conjunto de variables el estado, y métodos
@@ -17,7 +22,10 @@ import lombok.Data;
  * @author vperezqu.
  *
  */
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 public class FamilyMembers {
 

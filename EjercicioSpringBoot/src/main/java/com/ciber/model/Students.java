@@ -16,7 +16,10 @@ import javax.persistence.OneToMany;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 /**
  * La clase Students es un modelo que define un conjunto de variables el estado, y métodos
@@ -25,7 +28,10 @@ import lombok.Data;
  * @author vperezqu.
  *
  */
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 public class Students {
 
